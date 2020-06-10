@@ -18,9 +18,7 @@ Method (see InputParser.cpp file for more details on the order of parameters):
 - Sequential search
 	+ "BF": bruteforce search (no parameters)
 
-- Sampling methods with two additional parameters: 
-+ number of samples: PARAM_MIPS_SAMPLES
-+ number of dot product computations: PARAM_MIPS_DOT_PRODUCTS
+- Sampling methods with two additional parameters (number of samples: PARAM_MIPS_SAMPLES; number of dot product computations: PARAM_MIPS_DOT_PRODUCTS)
 
 	+ "wedge": wedge sampling 
 	+ "dWedge": heristic wedge (deterministic)
@@ -31,23 +29,16 @@ Method (see InputParser.cpp file for more details on the order of parameters):
 	+ "dDiamond": heristic diamond sampling
 	+ "shift_Diamond": diamond sampling with shifting pre-processing
 
-- Greedy methods with 2 additional parameters: 
-+ number of samples: PARAM_MIPS_SAMPLES;
-+ number of dot product computations: PARAM_MIPS_DOT_PRODUCTS
+- Greedy methods with 2 additional parameters (number of samples: PARAM_MIPS_SAMPLES; number of dot product computations: PARAM_MIPS_DOT_PRODUCTS)
 
 	+ "greedy": GreedyMIPS in NIPS 17 (we only use the parameter PARAM_MIPS_DOT_PRODUCTS since it determines PARAM_MIPS_SAMPLES)
 
-- LSH codes with 2 additional paramenters: 
-+ number of LSH functions: PARAM_LSH_HASH_FUNCTIONS;
-+ number of dot product computation: PARAM_MIPS_DOT_PRODUCTS
+- LSH codes with 2 additional paramenters (number of LSH functions: PARAM_LSH_HASH_FUNCTIONS; number of dot product computation: PARAM_MIPS_DOT_PRODUCTS)
 
 	+ "simpleLSH_Code": SimpleLSH in ICML 15
 	+ RangeLSH": NormRangeLSH in NIPS 18 (one additional parameter number of partitions: PARAM_LSH_PARTITIONS)
 
-- LSH tables with 3 additional paramenters: 
-+ number of LSH functions: PARAM_LSH_HASH_FUNCTIONS;
-+ number of LSH tables: PARAM_LSH_HASH_TABLES;
-+ number of dot product computations: PARAM_MIPS_DOT_PRODUCTS
+- LSH tables with 3 additional paramenters (number of LSH functions: PARAM_LSH_HASH_FUNCTIONS; number of LSH tables: PARAM_LSH_HASH_TABLES; number of dot product computations: PARAM_MIPS_DOT_PRODUCTS)
 
 	+ "simpleLSH_Code": SimpleLSH in ICML 15
 	+ RangeLSH": NormRangeLSH in NIPS 18 (one additional parameter number of partitions: PARAM_LSH_PARTITIONS)
