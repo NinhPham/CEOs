@@ -32,25 +32,25 @@ number of dot product computations: PARAM_MIPS_DOT_PRODUCTS
 	+ "shift_Diamond": diamond sampling with shifting pre-processing
 
 - Greedy methods with 2 additional parameters: 
-number of samples: PARAM_MIPS_SAMPLES
+number of samples: PARAM_MIPS_SAMPLES;
 number of dot product computations: PARAM_MIPS_DOT_PRODUCTS
 
-	+ "greedy": GreedyMIPS in NIPS 17 (we only use the parameter M since it determines S)
+	+ "greedy": GreedyMIPS in NIPS 17 (we only use the parameter PARAM_MIPS_DOT_PRODUCTS since it determines PARAM_MIPS_SAMPLES)
 
 - LSH codes with 2 additional paramenters: 
-number of LSH functions: PARAM_LSH_HASH_FUNCTIONS
+number of LSH functions: PARAM_LSH_HASH_FUNCTIONS;
 number of dot product computation: PARAM_MIPS_DOT_PRODUCTS
 
 	+ "simpleLSH_Code": SimpleLSH in ICML 15
-	+ RangeLSH": NormRangeLSH in NIPS 18 (one additional parameter: number of partitions: PARAM_LSH_PARTITIONS)
+	+ RangeLSH": NormRangeLSH in NIPS 18 (one additional parameter number of partitions: PARAM_LSH_PARTITIONS)
 
 - LSH tables with 3 additional paramenters: 
-number of LSH functions: PARAM_LSH_HASH_FUNCTIONS 
-number of LSH tables: PARAM_LSH_HASH_TABLES
+number of LSH functions: PARAM_LSH_HASH_FUNCTIONS;
+number of LSH tables: PARAM_LSH_HASH_TABLES;
 number of dot product computations: PARAM_MIPS_DOT_PRODUCTS
 
 	+ "simpleLSH_Code": SimpleLSH in ICML 15
-	+ RangeLSH": NormRangeLSH in NIPS 18 (one additional parameter: number of partitions: PARAM_LSH_PARTITIONS)
+	+ RangeLSH": NormRangeLSH in NIPS 18 (one additional parameter number of partitions: PARAM_LSH_PARTITIONS)
 
 Sample script:
 17770 10 150 10 "_Netflix_X_17770_150.txt" "C_Netflix_Q_1000_150.txt" "dWedge" 10000 100
