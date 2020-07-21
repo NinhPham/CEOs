@@ -482,7 +482,7 @@ void rangeLSH_Code_TopK()
 
             // Use adjusted measure suggested in NIPS 18 paper: Uj cos (pi * (1 - eps) * (1 - l/L)
             vecCounter[n] = PI *  (1 - EPSILON) * iHamDist / PARAM_LSH_HASH_FUNCTIONS;
-            vecCounter[n] = hackCos(iHamDist) * VECTOR_LSH_PARTITION_NORM[n];
+            vecCounter[n] = hackCos(vecCounter[n]) * VECTOR_LSH_PARTITION_NORM[n];
         }
 
         dHashTime += clock() - dStart;
