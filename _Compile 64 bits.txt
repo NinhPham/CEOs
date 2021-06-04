@@ -1,0 +1,18 @@
+- To install it onto Code::Blocks, extract the zip file to a folder without spaces, such as C:\MinGW64
+- Open Code::Blocks and click on Settings -> Compiler and debugger. Under Selected Compiler, click Copy. 
+In the next box, type something like "MinGW 64-bit Compiler" and click OK.
+- Then on the Toolchain executables tab, click the Browse button beside each option and browse to the folder you copied MinGW64 to ( C:\MinGW64 ) and go into the bin folder. 
+Set each option as follows:
+
++ Compiler's installation directory: The path you specified( C:\MinGW64 )
++ C compiler: gcc.exe
++ C++ compiler: g++.exe (If you used my link above it will be g++64.exe, thanks Super Cat for reminding me)
++ Linker for dynamic libs: g++.exe (g++64.exe if you used my link)
++ Linker for static libs: ar.exe
++ Debugger: There isn't one for MinGW64 yet, clear this and leave it blank
++ Resource compiler: windres.exe
++ Make program: make.exe
+
+Once you have the compiler set up, compile your DLL with the same settings, only using the 64 bit compiler.
+
+Copy all DLL compiled in x86_64 into the folder containing exe file
