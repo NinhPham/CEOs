@@ -26,8 +26,8 @@ Method (see InputParser.cpp file for more details):
 - "Gauss_RP" l = 128 (number of random projections), b = 100
 - "simpleLSH_Code" l = 128 (number of random projections), b = 100
 - "rangeLSH_Code" l = 128, p = 4 (number of partitions), b = 100
-- "coCEOs_Est" D = 1024 (number of random projections), s0 = 5 (number of concomitants for max or min), b = 100
-- "coCEOs_TA" D = 1024, s0 = 5, b = 100
+- "sCEOs_Est" D = 1024 (number of random projections), s0 = 5 (number of concomitants for max or min), b = 100
+- "sCEOs_TA" D = 1024, s0 = 5, b = 100
 - "coCEOs_Search" 1024, s0 = 5, S = 10000 (number of samples), b = 100
 
 Sample Scripts:
