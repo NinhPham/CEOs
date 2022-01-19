@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="Header.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="991" topLine="39" />
+		</Cursor>
+	</File>
+	<File name="NormRangeLSH.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="176" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="BF.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="245" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3053" topLine="91" />
+		</Cursor>
+	</File>
+	<File name="Utilities.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5117" topLine="137" />
+		</Cursor>
+		<Folding>
+			<Collapse line="94" />
+			<Collapse line="307" />
+			<Collapse line="430" />
+		</Folding>
+	</File>
+	<File name="NormRangeLSH.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="16422" topLine="397" />
+		</Cursor>
+		<Folding>
+			<Collapse line="12" />
+			<Collapse line="180" />
+			<Collapse line="291" />
+			<Collapse line="475" />
+		</Folding>
+	</File>
+	<File name="WedgeSampling.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="161" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Utilities.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="948" topLine="52" />
+		</Cursor>
+	</File>
+	<File name="Concomitant.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="22971" topLine="452" />
+		</Cursor>
+		<Folding>
+			<Collapse line="16" />
+			<Collapse line="31" />
+			<Collapse line="90" />
+			<Collapse line="169" />
+			<Collapse line="392" />
+			<Collapse line="575" />
+			<Collapse line="664" />
+			<Collapse line="671" />
+			<Collapse line="693" />
+			<Collapse line="759" />
+			<Collapse line="804" />
+			<Collapse line="893" />
+		</Folding>
+	</File>
+	<File name="WedgeSampling.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10951" topLine="137" />
+		</Cursor>
+		<Folding>
+			<Collapse line="109" />
+			<Collapse line="217" />
+		</Folding>
+	</File>
+	<File name="InputParser.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9296" topLine="255" />
+		</Cursor>
+	</File>
+	<File name="InputParser.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="92" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Concomitant.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="163" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Header.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1586" topLine="45" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>
