@@ -4,13 +4,18 @@
 	<Project>
 		<Option title="MIPS" />
 		<Option pch_mode="2" />
+<<<<<<< HEAD
 		<Option compiler="gcc" />
+=======
+		<Option compiler="mingw_64-bit_compiler" />
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
 		<Build>
 			<Target title="Debug">
 				<Option output="bin/Debug/MIPS" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+<<<<<<< HEAD
 				<Option parameters='17770 999 300 10 &quot;/home/npha145/Dataset/kNN/Own/_Netflix_X_17770_300.txt&quot; &quot;/home/npha145/Dataset/kNN/Own/_Netflix_Q_999_300.txt&quot; &quot;rangeLSH_Code&quot; 128 4 100' />
 				<Compiler>
 					<Add option="-O3" />
@@ -19,12 +24,25 @@
 				</Compiler>
 				<Linker>
 					<Add option="-O3" />
+=======
+				<Option parameters='17770 100 300 10 &quot;C:\_Data\Dataset\_MIPS\Own\Netflix\_X_17770_300.txt&quot; &quot;C:\_Data\Dataset\_MIPS\Own\Netflix\_Q_1000_300.txt&quot; &quot;coCEOs_Search&quot; 512 5 180 100' />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-std=c++11" />
+					<Add option="-m32" />
+					<Add option="-g" />
+					<Add option="-g -O0 -DSF_VISIBILITY -fvisibility=hidden -fno-strict-aliasing -Wall" />
+				</Compiler>
+				<Linker>
+					<Add option="-m32" />
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
 				</Linker>
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/MIPS" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
+<<<<<<< HEAD
 				<Option compiler="gcc" />
 				<Option parameters='1000000 1000 960 10 &quot;/home/npha145/Dataset/kNN/H2LSH/Gist/_X_1000000_960.txt&quot; &quot;/home/npha145/Dataset/kNN/H2LSH/Gist/_Q_1000_960.txt&quot; &quot;rangeLSH_Code&quot; 64 4 100' />
 				<Compiler>
@@ -33,16 +51,30 @@
 					<Add option="-fopenmp" />
 					<Add option="-march=native" />
 					<Add directory="C:/Library/eigen-3.4.0" />
+=======
+				<Option compiler="mingw_64-bit_compiler" />
+				<Option parameters='17770 100 300 10 &quot;C:\_Data\Dataset\_MIPS\Own\Netflix\_X_17770_300.txt&quot; &quot;C:\_Data\Dataset\_MIPS\Own\Netflix\_Q_1000_300.txt&quot; &quot;sCEOs_TA&quot; 1024 5' />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-std=c++14" />
+					<Add option="-m64" />
+					<Add directory="C:/_Data/Libraries/eigen-3.3.8" />
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
 				</Compiler>
 				<Linker>
 					<Add option="-O3" />
 					<Add option="-s" />
 					<Add option="-m64" />
+<<<<<<< HEAD
 					<Add option="-lgomp -pthread" />
+=======
+					<Add directory="../../../../../../Software/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/libgomp.dll.a -fopenmp" />
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
 				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
+<<<<<<< HEAD
 			<Add option="-O3" />
 			<Add option="-m64" />
 			<Add directory="/home/npha145/Library/eigen-3.4.0" />
@@ -53,21 +85,55 @@
 		<Linker>
 			<Add option="-O3" />
 			<Add option="-m64" />
+=======
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-m64" />
+			<Add option="-ftemplate-backtrace-limit=0" />
+			<Add directory="C:/_Data/Libraries/eigen-3.3.8" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:/_Data/Dropbox/Working/_Code/C++/MIPS/Lib/eigen-eigen-5a0156e40feb" />
+			<Add directory="C:/_Data/Libraries/robin-map-master" />
+			<Add directory="C:/_Data/Libraries/sparsehash-c11-master" />
+			<Add directory="C:/_Data/Libraries/sparsepp-master" />
+			<Add directory="C:/_Data/Libraries/flat-hash-table-master" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-O3" />
+			<Add option="-m64" />
+			<Add directory="C:/_Data/Dropbox/Working/_Code/C++/MIPS/Lib/eigen-eigen-5a0156e40feb" />
+			<Add directory="C:/_Data/Libraries/robin-map-master" />
+			<Add directory="C:/_Data/Libraries/sparsehash-c11-master" />
+			<Add directory="C:/_Data/Libraries/sparsepp-master" />
+			<Add directory="C:/_Data/Libraries/flat-hash-table-master" />
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
 		</Linker>
 		<Unit filename="BF.cpp" />
 		<Unit filename="BF.h" />
 		<Unit filename="Concomitant.cpp" />
 		<Unit filename="Concomitant.h" />
+<<<<<<< HEAD
+=======
+		<Unit filename="Greedy.cpp" />
+		<Unit filename="Greedy.h" />
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
 		<Unit filename="Header.cpp" />
 		<Unit filename="Header.h" />
 		<Unit filename="InputParser.cpp" />
 		<Unit filename="InputParser.h" />
 		<Unit filename="NormRangeLSH.cpp" />
 		<Unit filename="NormRangeLSH.h" />
+<<<<<<< HEAD
+=======
+		<Unit filename="SimpleLSH.cpp" />
+		<Unit filename="SimpleLSH.h" />
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
 		<Unit filename="Utilities.cpp" />
 		<Unit filename="Utilities.h" />
 		<Unit filename="WedgeSampling.cpp" />
 		<Unit filename="WedgeSampling.h" />
+<<<<<<< HEAD
 		<Unit filename="fast_copy.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -79,5 +145,13 @@
 		<Unit filename="fht_impl.h" />
 		<Unit filename="main.cpp" />
 		<Extensions />
+=======
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
 	</Project>
 </CodeBlocks_project_file>

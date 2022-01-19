@@ -1,4 +1,5 @@
 # depslib dependency file v1.0
+<<<<<<< HEAD
 1594903365 source:c:\_data\dropbox\working\_code\c++\mips\bf.cpp
 	"BF.h"
 	"Utilities.h"
@@ -6113,36 +6114,34 @@
 	"Header.h"
 
 1641697997 source:/home/npha145/Dropbox/Working/_Code/C++/CEOs2.0/BF.cpp
+=======
+1594903365 source:c:\_data\dropbox\working\_code\c++\mips\bf.cpp
 	"BF.h"
 	"Utilities.h"
 	"Header.h"
 
-1627273715 /home/npha145/Dropbox/Working/_Code/C++/CEOs2.0/BF.h
+1536311274 
+
+1553211588 c:\_data\dropbox\working\_code\c++\mips\bf.h
 	"Header.h"
 
-1642538208 /home/npha145/Dropbox/Working/_Code/C++/CEOs2.0/Header.h
-	"fht.h"
-	<cstdlib>
+1598256571 c:\_data\dropbox\working\_code\c++\mips\header.h
+	<time.h>
 	<chrono>
-	<iostream>
 	<cstdio>
+	<cmath>
 	<algorithm>
 	<vector>
 	<utility>
 	<unordered_map>
-	<queue>
-	<unordered_set>
 	<string>
-	<time.h>
-	<random>
 	<Eigen/Dense>
-	<boost/dynamic_bitset.hpp>
 
-1639693419 /home/npha145/Dropbox/Working/_Code/C++/CEOs2.0/fht.h
-	<string.h>
-	<stdlib.h>
+1538777931 se>
 
-1629319318 /home/npha145/Library/eigen-3.4.0/Eigen/Dense
+1535621127 spp.h>
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\dense
 	"Core"
 	"LU"
 	"Cholesky"
@@ -6151,15 +6150,32 @@
 	"Geometry"
 	"Eigenvalues"
 
-1629319318 /home/npha145/Library/eigen-3.4.0/Eigen/Core
+1497514220 es"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\core
 	"src/Core/util/DisableStupidWarnings.h"
-	"src/Core/util/Macros.h"
-	"src/Core/util/ConfigureVectorization.h"
-	<cuda_runtime.h>
-	<hip/hip_runtime.h>
+	<math_functions.hpp>
 	<new>
+	"src/Core/util/Macros.h"
 	<complex>
 	"src/Core/util/MKL_support.h"
+	<malloc.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<emmintrin.h>
+	<xmmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+	<immintrin.h>
+	<altivec.h>
+	<altivec.h>
+	<arm_neon.h>
+	<vecintrin.h>
+	<vector_types.h>
+	<host_defines.h>
+	<cuda_fp16.h>
 	<omp.h>
 	<cerrno>
 	<cstddef>
@@ -6167,89 +6183,55 @@
 	<cmath>
 	<cassert>
 	<functional>
-	<sstream>
 	<iosfwd>
 	<cstring>
 	<string>
 	<limits>
 	<climits>
 	<algorithm>
-	<array>
 	<type_traits>
 	<iostream>
 	<intrin.h>
-	<CL/sycl.hpp>
-	<map>
-	<memory>
-	<utility>
-	<thread>
 	"src/Core/util/Constants.h"
 	"src/Core/util/Meta.h"
 	"src/Core/util/ForwardDeclarations.h"
 	"src/Core/util/StaticAssert.h"
 	"src/Core/util/XprHelper.h"
 	"src/Core/util/Memory.h"
-	"src/Core/util/IntegralConstant.h"
-	"src/Core/util/SymbolicIndex.h"
 	"src/Core/NumTraits.h"
 	"src/Core/MathFunctions.h"
 	"src/Core/GenericPacketMath.h"
 	"src/Core/MathFunctionsImpl.h"
-	"src/Core/arch/Default/ConjHelper.h"
-	"src/Core/arch/Default/Half.h"
-	"src/Core/arch/Default/BFloat16.h"
-	"src/Core/arch/Default/TypeCasting.h"
-	"src/Core/arch/Default/GenericPacketMathFunctionsFwd.h"
 	"src/Core/arch/SSE/PacketMath.h"
-	"src/Core/arch/SSE/TypeCasting.h"
-	"src/Core/arch/SSE/Complex.h"
 	"src/Core/arch/AVX/PacketMath.h"
-	"src/Core/arch/AVX/TypeCasting.h"
-	"src/Core/arch/AVX/Complex.h"
 	"src/Core/arch/AVX512/PacketMath.h"
-	"src/Core/arch/AVX512/TypeCasting.h"
-	"src/Core/arch/AVX512/Complex.h"
-	"src/Core/arch/SSE/MathFunctions.h"
-	"src/Core/arch/AVX/MathFunctions.h"
 	"src/Core/arch/AVX512/MathFunctions.h"
 	"src/Core/arch/SSE/PacketMath.h"
-	"src/Core/arch/SSE/TypeCasting.h"
 	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/SSE/MathFunctions.h"
 	"src/Core/arch/AVX/PacketMath.h"
-	"src/Core/arch/AVX/TypeCasting.h"
-	"src/Core/arch/AVX/Complex.h"
-	"src/Core/arch/SSE/MathFunctions.h"
 	"src/Core/arch/AVX/MathFunctions.h"
+	"src/Core/arch/AVX/Complex.h"
+	"src/Core/arch/AVX/TypeCasting.h"
 	"src/Core/arch/SSE/PacketMath.h"
-	"src/Core/arch/SSE/TypeCasting.h"
 	"src/Core/arch/SSE/MathFunctions.h"
 	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/SSE/TypeCasting.h"
 	"src/Core/arch/AltiVec/PacketMath.h"
 	"src/Core/arch/AltiVec/MathFunctions.h"
 	"src/Core/arch/AltiVec/Complex.h"
 	"src/Core/arch/NEON/PacketMath.h"
-	"src/Core/arch/NEON/TypeCasting.h"
 	"src/Core/arch/NEON/MathFunctions.h"
 	"src/Core/arch/NEON/Complex.h"
-	"src/Core/arch/SVE/PacketMath.h"
-	"src/Core/arch/SVE/TypeCasting.h"
-	"src/Core/arch/SVE/MathFunctions.h"
 	"src/Core/arch/ZVector/PacketMath.h"
 	"src/Core/arch/ZVector/MathFunctions.h"
 	"src/Core/arch/ZVector/Complex.h"
-	"src/Core/arch/MSA/PacketMath.h"
-	"src/Core/arch/MSA/MathFunctions.h"
-	"src/Core/arch/MSA/Complex.h"
-	"src/Core/arch/GPU/PacketMath.h"
-	"src/Core/arch/GPU/MathFunctions.h"
-	"src/Core/arch/GPU/TypeCasting.h"
-	"src/Core/arch/SYCL/SyclMemoryModel.h"
-	"src/Core/arch/SYCL/InteropHeaders.h"
-	"src/Core/arch/SYCL/PacketMath.h"
-	"src/Core/arch/SYCL/MathFunctions.h"
-	"src/Core/arch/SYCL/TypeCasting.h"
+	"src/Core/arch/CUDA/Half.h"
+	"src/Core/arch/CUDA/PacketMathHalf.h"
+	"src/Core/arch/CUDA/TypeCasting.h"
+	"src/Core/arch/CUDA/PacketMath.h"
+	"src/Core/arch/CUDA/MathFunctions.h"
 	"src/Core/arch/Default/Settings.h"
-	"src/Core/arch/Default/GenericPacketMathFunctions.h"
 	"src/Core/functors/TernaryFunctors.h"
 	"src/Core/functors/BinaryFunctors.h"
 	"src/Core/functors/UnaryFunctors.h"
@@ -6257,9 +6239,6 @@
 	"src/Core/functors/StlFunctors.h"
 	"src/Core/functors/AssignmentFunctors.h"
 	"src/Core/arch/CUDA/Complex.h"
-	"src/Core/util/IndexedViewHelper.h"
-	"src/Core/util/ReshapedHelper.h"
-	"src/Core/ArithmeticSequence.h"
 	"src/Core/IO.h"
 	"src/Core/DenseCoeffsBase.h"
 	"src/Core/DenseBase.h"
@@ -6292,8 +6271,6 @@
 	"src/Core/Ref.h"
 	"src/Core/Block.h"
 	"src/Core/VectorBlock.h"
-	"src/Core/IndexedView.h"
-	"src/Core/Reshaped.h"
 	"src/Core/Transpose.h"
 	"src/Core/DiagonalMatrix.h"
 	"src/Core/Diagonal.h"
@@ -6329,17 +6306,13 @@
 	"src/Core/BandMatrix.h"
 	"src/Core/CoreIterators.h"
 	"src/Core/ConditionEstimator.h"
-	"src/Core/arch/AltiVec/MatrixProduct.h"
-	"src/Core/arch/NEON/GeneralBlockPanelKernel.h"
 	"src/Core/BooleanRedux.h"
 	"src/Core/Select.h"
 	"src/Core/VectorwiseOp.h"
-	"src/Core/PartialReduxEvaluator.h"
 	"src/Core/Random.h"
 	"src/Core/Replicate.h"
 	"src/Core/Reverse.h"
 	"src/Core/ArrayWrapper.h"
-	"src/Core/StlIterators.h"
 	"src/Core/products/GeneralMatrixMatrix_BLAS.h"
 	"src/Core/products/GeneralMatrixVector_BLAS.h"
 	"src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h"
@@ -6352,6 +6325,1592 @@
 	"src/Core/GlobalFunctions.h"
 	"src/Core/util/ReenableStupidWarnings.h"
 
+1497514220 util/ReenableStupidWarnings.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\util\disablestupidwarnings.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\util\macros.h
+	<cstdlib>
+	<iostream>
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\util\mkl_support.h
+	<mkl.h>
+	"../../misc/blas.h"
+
+1497514220 c/blas.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\misc\blas.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\util\constants.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\util\meta.h
+	<cfloat>
+	<math_constants.h>
+	<cstdint>
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\util\forwarddeclarations.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\util\staticassert.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\util\xprhelper.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\util\memory.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\numtraits.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\mathfunctions.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\genericpacketmath.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\mathfunctionsimpl.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\sse\packetmath.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\avx\packetmath.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\avx512\packetmath.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\avx512\mathfunctions.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\sse\complex.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\sse\mathfunctions.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\avx\mathfunctions.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\avx\complex.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\avx\typecasting.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\sse\typecasting.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\altivec\packetmath.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\altivec\mathfunctions.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\altivec\complex.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\neon\packetmath.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\neon\mathfunctions.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\neon\complex.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\zvector\packetmath.h
+	<stdint.h>
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\zvector\mathfunctions.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\zvector\complex.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\cuda\half.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\cuda\packetmathhalf.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\cuda\typecasting.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\cuda\packetmath.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\cuda\mathfunctions.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\default\settings.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\functors\ternaryfunctors.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\functors\binaryfunctors.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\functors\unaryfunctors.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\functors\nullaryfunctors.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\functors\stlfunctors.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\functors\assignmentfunctors.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arch\cuda\complex.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\io.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\densecoeffsbase.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\densebase.h
+	"../plugins/BlockMethods.h"
+
+1497514220 s/BlockMethods.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\plugins\blockmethods.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\matrixbase.h
+	"../plugins/CommonCwiseUnaryOps.h"
+	"../plugins/CommonCwiseBinaryOps.h"
+	"../plugins/MatrixCwiseUnaryOps.h"
+	"../plugins/MatrixCwiseBinaryOps.h"
+
+1497514220 s/MatrixCwiseBinaryOps.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\plugins\commoncwiseunaryops.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\plugins\commoncwisebinaryops.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\plugins\matrixcwiseunaryops.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\plugins\matrixcwisebinaryops.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\eigenbase.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\product.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\coreevaluators.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\assignevaluator.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\assign.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arraybase.h
+	"../plugins/CommonCwiseUnaryOps.h"
+	"../plugins/MatrixCwiseUnaryOps.h"
+	"../plugins/ArrayCwiseUnaryOps.h"
+	"../plugins/CommonCwiseBinaryOps.h"
+	"../plugins/MatrixCwiseBinaryOps.h"
+	"../plugins/ArrayCwiseBinaryOps.h"
+
+1497514220 s/ArrayCwiseBinaryOps.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\plugins\arraycwiseunaryops.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\plugins\arraycwisebinaryops.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\util\blasutil.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\densestorage.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\nestbyvalue.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\returnbyvalue.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\noalias.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\plainobjectbase.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\matrix.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\array.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\cwiseternaryop.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\cwisebinaryop.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\cwiseunaryop.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\cwisenullaryop.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\cwiseunaryview.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\selfcwisebinaryop.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\dot.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\stablenorm.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\stride.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\mapbase.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\map.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\ref.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\block.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\vectorblock.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\transpose.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\diagonalmatrix.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\diagonal.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\diagonalproduct.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\redux.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\visitor.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\fuzzy.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\swap.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\commainitializer.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\generalproduct.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\solve.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\inverse.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\solverbase.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\permutationmatrix.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\transpositions.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\triangularmatrix.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\selfadjointview.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\generalblockpanelkernel.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\parallelizer.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\productevaluators.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\generalmatrixvector.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\generalmatrixmatrix.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\solvetriangular.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\generalmatrixmatrixtriangular.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\selfadjointmatrixvector.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\selfadjointmatrixmatrix.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\selfadjointproduct.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\selfadjointrank2update.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\triangularmatrixvector.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\triangularmatrixmatrix.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\triangularsolvermatrix.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\triangularsolvervector.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\bandmatrix.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\coreiterators.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\conditionestimator.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\booleanredux.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\select.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\vectorwiseop.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\random.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\replicate.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\reverse.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\arraywrapper.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\generalmatrixmatrix_blas.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\generalmatrixvector_blas.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\generalmatrixmatrixtriangular_blas.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\selfadjointmatrixmatrix_blas.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\selfadjointmatrixvector_blas.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\triangularmatrixmatrix_blas.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\triangularmatrixvector_blas.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\products\triangularsolvermatrix_blas.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\assign_mkl.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\globalfunctions.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\core\util\reenablestupidwarnings.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\lu
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/Kernel.h"
+	"src/misc/Image.h"
+	"src/LU/FullPivLU.h"
+	"src/LU/PartialPivLU.h"
+	"src/misc/lapacke.h"
+	"src/LU/PartialPivLU_LAPACKE.h"
+	"src/LU/Determinant.h"
+	"src/LU/InverseImpl.h"
+	"src/LU/arch/Inverse_SSE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\misc\kernel.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\misc\image.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\lu\fullpivlu.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\lu\partialpivlu.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\misc\lapacke.h
+	"lapacke_config.h"
+	<stdlib.h>
+	<complex.h>
+	<complex.h>
+	"lapacke_mangling.h"
+
+1497514220 angling.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\misc\lapacke_mangling.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\lu\partialpivlu_lapacke.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\lu\determinant.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\lu\inverseimpl.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\lu\arch\inverse_sse.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\cholesky
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Cholesky/LLT.h"
+	"src/Cholesky/LDLT.h"
+	"src/misc/lapacke.h"
+	"src/Cholesky/LLT_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\cholesky\llt.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\cholesky\ldlt.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\cholesky\llt_lapacke.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\qr
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"Cholesky"
+	"Jacobi"
+	"Householder"
+	"src/QR/HouseholderQR.h"
+	"src/QR/FullPivHouseholderQR.h"
+	"src/QR/ColPivHouseholderQR.h"
+	"src/QR/CompleteOrthogonalDecomposition.h"
+	"src/misc/lapacke.h"
+	"src/QR/HouseholderQR_LAPACKE.h"
+	"src/QR/ColPivHouseholderQR_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\jacobi
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Jacobi/Jacobi.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\jacobi\jacobi.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\householder
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Householder/Householder.h"
+	"src/Householder/HouseholderSequence.h"
+	"src/Householder/BlockHouseholder.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\householder\householder.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\householder\householdersequence.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\householder\blockhouseholder.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\qr\householderqr.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\qr\fullpivhouseholderqr.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\qr\colpivhouseholderqr.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\qr\completeorthogonaldecomposition.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\qr\householderqr_lapacke.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\qr\colpivhouseholderqr_lapacke.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\svd
+	"QR"
+	"Householder"
+	"Jacobi"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/RealSvd2x2.h"
+	"src/SVD/UpperBidiagonalization.h"
+	"src/SVD/SVDBase.h"
+	"src/SVD/JacobiSVD.h"
+	"src/SVD/BDCSVD.h"
+	"src/misc/lapacke.h"
+	"src/SVD/JacobiSVD_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\misc\realsvd2x2.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\svd\upperbidiagonalization.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\svd\svdbase.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\svd\jacobisvd.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\svd\bdcsvd.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\svd\jacobisvd_lapacke.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\geometry
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"SVD"
+	"LU"
+	<limits>
+	"src/Geometry/OrthoMethods.h"
+	"src/Geometry/EulerAngles.h"
+	"src/Geometry/Homogeneous.h"
+	"src/Geometry/RotationBase.h"
+	"src/Geometry/Rotation2D.h"
+	"src/Geometry/Quaternion.h"
+	"src/Geometry/AngleAxis.h"
+	"src/Geometry/Transform.h"
+	"src/Geometry/Translation.h"
+	"src/Geometry/Scaling.h"
+	"src/Geometry/Hyperplane.h"
+	"src/Geometry/ParametrizedLine.h"
+	"src/Geometry/AlignedBox.h"
+	"src/Geometry/Umeyama.h"
+	"src/Geometry/arch/Geometry_SSE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\geometry\orthomethods.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\geometry\eulerangles.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\geometry\homogeneous.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\geometry\rotationbase.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\geometry\rotation2d.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\geometry\quaternion.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\geometry\angleaxis.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\geometry\transform.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\geometry\translation.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\geometry\scaling.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\geometry\hyperplane.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\geometry\parametrizedline.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\geometry\alignedbox.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\geometry\umeyama.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\geometry\arch\geometry_sse.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\eigenvalues
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"Cholesky"
+	"Jacobi"
+	"Householder"
+	"LU"
+	"Geometry"
+	"src/misc/RealSvd2x2.h"
+	"src/Eigenvalues/Tridiagonalization.h"
+	"src/Eigenvalues/RealSchur.h"
+	"src/Eigenvalues/EigenSolver.h"
+	"src/Eigenvalues/SelfAdjointEigenSolver.h"
+	"src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h"
+	"src/Eigenvalues/HessenbergDecomposition.h"
+	"src/Eigenvalues/ComplexSchur.h"
+	"src/Eigenvalues/ComplexEigenSolver.h"
+	"src/Eigenvalues/RealQZ.h"
+	"src/Eigenvalues/GeneralizedEigenSolver.h"
+	"src/Eigenvalues/MatrixBaseEigenvalues.h"
+	"src/misc/lapacke.h"
+	"src/Eigenvalues/RealSchur_LAPACKE.h"
+	"src/Eigenvalues/ComplexSchur_LAPACKE.h"
+	"src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\tridiagonalization.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\realschur.h
+	"./HessenbergDecomposition.h"
+
+1497514220 ergDecomposition.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\hessenbergdecomposition.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\eigensolver.h
+	"./RealSchur.h"
+
+1497514220 ur.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\selfadjointeigensolver.h
+	"./Tridiagonalization.h"
+
+1497514220 onalization.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\generalizedselfadjointeigensolver.h
+	"./Tridiagonalization.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\complexschur.h
+	"./HessenbergDecomposition.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\complexeigensolver.h
+	"./ComplexSchur.h"
+
+1497514220 Schur.h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\realqz.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\generalizedeigensolver.h
+	"./RealQZ.h"
+
+1497514220 h"
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\matrixbaseeigenvalues.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\realschur_lapacke.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\complexschur_lapacke.h
+
+1497514220 c:\_data\dropbox\working\_code\c++\mips\lib\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\selfadjointeigensolver_lapacke.h
+
+1598256733 c:\_data\dropbox\working\_code\c++\mips\utilities.h
+	"Header.h"
+	<iostream>
+	<queue>
+	<unordered_set>
+	<unordered_map>
+	<time.h>
+	<random>
+
+1598256558 source:c:\_data\dropbox\working\_code\c++\mips\header.cpp
+	"Header.h"
+
+1599739193 source:c:\_data\dropbox\working\_code\c++\mips\inputparser.cpp
+	"InputParser.h"
+	"Header.h"
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<string.h>
+
+1572908638 c:\_data\dropbox\working\_code\c++\mips\inputparser.h
+	"Header.h"
+
+1604927233 source:c:\_data\dropbox\working\_code\c++\mips\main.cpp
+	"Header.h"
+	"InputParser.h"
+	"Utilities.h"
+	"Test.h"
+	"BF.h"
+	"WedgeSampling.h"
+	"Greedy.h"
+	"SimpleLSH.h"
+	"NormRangeLSH.h"
+	"PrioritySampling.h"
+	"Concomitant.h"
+	<limits>
+	<cstdlib>
+	<chrono>
+
+1532087601 c:\_data\dropbox\working\_code\c++\mips\test.h
+	"Header.h"
+
+1587381999 c:\_data\dropbox\working\_code\c++\mips\wedgesampling.h
+	"Header.h"
+
+1532105416 source:c:\_data\dropbox\working\_code\c++\mips\test.cpp
+	"Utilities.h"
+	"Header.h"
+	"Test.h"
+
+1598257489 source:c:\_data\dropbox\working\_code\c++\mips\utilities.cpp
+	"Utilities.h"
+	"Header.h"
+	<vector>
+	<queue>
+	<random>
+	<fstream>
+	<sstream>
+	<algorithm>
+	<unordered_map>
+	<unordered_set>
+
+1535485791 >
+
+1599694411 source:c:\_data\dropbox\working\_code\c++\mips\wedgesampling.cpp
+	"WedgeSampling.h"
+	"Utilities.h"
+	"Header.h"
+
+1528924011 c:\_data\libraries\robin-map-master\tsl\robin_set.h
+	<cstddef>
+	<functional>
+	<initializer_list>
+	<memory>
+	<type_traits>
+	<utility>
+	"robin_hash.h"
+
+1528924011 h.h"
+
+1528924011 c:\_data\libraries\robin-map-master\tsl\robin_hash.h
+	<algorithm>
+	<cassert>
+	<cmath>
+	<cstddef>
+	<cstdint>
+	<exception>
+	<iterator>
+	<limits>
+	<memory>
+	<stdexcept>
+	<tuple>
+	<type_traits>
+	<utility>
+	<vector>
+	"robin_growth_policy.h"
+
+1528924011 wth_policy.h"
+
+1528924011 c:\_data\libraries\robin-map-master\tsl\robin_growth_policy.h
+	<algorithm>
+	<array>
+	<climits>
+	<cmath>
+	<cstddef>
+	<iterator>
+	<limits>
+	<ratio>
+	<stdexcept>
+	<cstdio>
+
+1528452303 c:\_data\libraries\sparsehash-c11-master\sparsehash\dense_hash_set
+	<algorithm>
+	<functional>
+	<initializer_list>
+	<memory>
+	<utility>
+	<sparsehash/internal/densehashtable.h>
+	<sparsehash/internal/libc_allocator_with_realloc.h>
+
+1528452303 h/internal/libc_allocator_with_realloc.h>
+
+1528452303 c:\_data\libraries\sparsehash-c11-master\sparsehash\internal\densehashtable.h
+	<assert.h>
+	<stdio.h>
+	<algorithm>
+	<iterator>
+	<limits>
+	<memory>
+	<utility>
+	<stdexcept>
+	<type_traits>
+	<sparsehash/internal/hashtable-common.h>
+	<sparsehash/internal/libc_allocator_with_realloc.h>
+
+1528452303 c:\_data\libraries\sparsehash-c11-master\sparsehash\internal\hashtable-common.h
+	<cassert>
+	<cstdio>
+	<cstddef>
+	<iosfwd>
+	<stdexcept>
+
+1528452303 c:\_data\libraries\sparsehash-c11-master\sparsehash\internal\libc_allocator_with_realloc.h
+	<cstdlib>
+	<cstddef>
+	<new>
+
+1533327408 c:\_data\libraries\sparsepp-master\sparsepp\spp.h
+	<cassert>
+	<cstring>
+	<string>
+	<limits>
+	<algorithm>
+	<iterator>
+	<functional>
+	<memory>
+	<cstdlib>
+	<cstddef>
+	<new>
+	<stdexcept>
+	<utility>
+	<cstdio>
+	<iosfwd>
+	<ios>
+	"spp_stdint.h"
+	"spp_traits.h"
+	"spp_utils.h"
+	"spp_dlalloc.h"
+	<initializer_list>
+
+1533327408 er_list>
+
+1533327408 c:\_data\libraries\sparsepp-master\sparsepp\spp_stdint.h
+	"spp_config.h"
+	<cstdint>
+	<inttypes.h>
+	<stdint.h>
+
+1533327408 c:\_data\libraries\sparsepp-master\sparsepp\spp_config.h
+	<cpuid.h>
+	<cpuid.h>
+	<cstddef>
+	<stddef.h>
+	<intrin.h>
+
+1533327408 c:\_data\libraries\sparsepp-master\sparsepp\spp_traits.h
+	"spp_config.h"
+
+1533327408 g.h"
+
+1533327408 c:\_data\libraries\sparsepp-master\sparsepp\spp_utils.h
+	<functional>
+	<hash_map>
+	<functional>
+	<tr1/unordered_map>
+	<functional>
+	<tr1/unordered_map>
+	<functional>
+
+1533327408 l>
+
+1533327408 c:\_data\libraries\sparsepp-master\sparsepp\spp_dlalloc.h
+	"spp_utils.h"
+	"spp_smartptr.h"
+	<windows.h>
+	<tchar.h>
+	<sys/types.h>
+	<errno.h>
+	<assert.h>
+	<time.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+	<sys/mman.h>
+	<sys/mman.h>
+	<fcntl.h>
+	<unistd.h>
+	<new>
+	<sys/param.h>
+
+1533327408 .h>
+
+1533327408 c:\_data\libraries\sparsepp-master\sparsepp\spp_smartptr.h
+	<cassert>
+	"spp_config.h"
+
+1494315654 c:\_data\libraries\flat-hash-table-master\include\flat_hash_set.hpp
+	<functional>
+	"flat_hash_table.hpp"
+
+1494315654 _table.hpp"
+
+1494315654 c:\_data\libraries\flat-hash-table-master\include\flat_hash_table.hpp
+	<vector>
+	<utility>
+
+1535580603 c:\_data\dropbox\working\_code\c++\mips\flat_hash_map.hpp
+	<cstdint>
+	<cstddef>
+	<functional>
+	<cmath>
+	<algorithm>
+	<iterator>
+	<utility>
+	<type_traits>
+
+1535580603 ts>
+
+1535581121 c:\_data\dropbox\working\_code\c++\mips\unordered_map.hpp
+	<cstdint>
+	<cstddef>
+	<cmath>
+	<array>
+	<algorithm>
+	<iterator>
+	<utility>
+	<type_traits>
+	"flat_hash_map.hpp"
+
+1535581121 _map.hpp"
+
+1538775123 source:/home/stephan/.dropbox-data/Dropbox/MIPS/BF.cpp
+	"BF.h"
+	"Utilities.h"
+	"Header.h"
+	"BF.h"
+	"Utilities.h"
+	"Header.h"
+
+1531069576 /home/stephan/.dropbox-data/Dropbox/MIPS/BF.h
+	"Header.h"
+	"Header.h"
+
+1539006413 /home/stephan/.dropbox-data/Dropbox/MIPS/Header.h
+	<time.h>
+	<cstdio>
+	<math.h>
+	<algorithm>
+	<vector>
+	<utility>
+	<string>
+	<eigen3/Eigen/Dense>
+	<time.h>
+	<cstdio>
+	<math.h>
+	<algorithm>
+	<vector>
+	<utility>
+	<string>
+	<eigen3/Eigen/Dense>
+
+1536311132 gen/Dense>
+
+1534262613 /home/stephan/.dropbox-data/Dropbox/MIPS/Utilities.h
+	"Header.h"
+	<iostream>
+	<queue>
+	"Header.h"
+	<iostream>
+	<queue>
+
+1535485594 source:/home/stephan/.dropbox-data/Dropbox/MIPS/Header.cpp
+	"Header.h"
+	"Header.h"
+
+1538774848 source:/home/stephan/.dropbox-data/Dropbox/MIPS/InputParser.cpp
+	"InputParser.h"
+	"Header.h"
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<string.h>
+	"InputParser.h"
+	"Header.h"
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<string.h>
+
+1466451251 /home/stephan/.dropbox-data/Dropbox/MIPS/InputParser.h
+	"Header.h"
+	"Header.h"
+
+1538772917 source:/home/stephan/.dropbox-data/Dropbox/MIPS/main.cpp
+	"Header.h"
+	"InputParser.h"
+	"Utilities.h"
+	"Test.h"
+	"BF.h"
+	"WedgeSampling.h"
+	<limits>
+	<time.h>
+	<cstdlib>
+	"Header.h"
+	"InputParser.h"
+	"Utilities.h"
+	"Test.h"
+	"BF.h"
+	"WedgeSampling.h"
+	<limits>
+	<time.h>
+	<cstdlib>
+
+1532084001 /home/stephan/.dropbox-data/Dropbox/MIPS/Test.h
+	"Header.h"
+	"Header.h"
+
+1535627840 /home/stephan/.dropbox-data/Dropbox/MIPS/WedgeSampling.h
+	"Header.h"
+	"Header.h"
+
+1532101816 source:/home/stephan/.dropbox-data/Dropbox/MIPS/Test.cpp
+	"Utilities.h"
+	"Header.h"
+	"Test.h"
+	"Utilities.h"
+	"Header.h"
+	"Test.h"
+
+1535485791 source:/home/stephan/.dropbox-data/Dropbox/MIPS/Utilities.cpp
+	"Utilities.h"
+	"Header.h"
+	<vector>
+	<queue>
+	<random>
+	<fstream>
+	<sstream>
+	<algorithm>
+	"Utilities.h"
+	"Header.h"
+	<vector>
+	<queue>
+	<random>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1539006640 source:/home/stephan/.dropbox-data/Dropbox/MIPS/WedgeSampling.cpp
+	"WedgeSampling.h"
+	"Utilities.h"
+	"Header.h"
+	<chrono>
+	<random>
+	<unordered_map>
+	<unordered_set>
+	<bitset>
+	"Test.h"
+	"WedgeSampling.h"
+	"Utilities.h"
+	"Header.h"
+	<chrono>
+	<random>
+	<unordered_map>
+	<unordered_set>
+	<bitset>
+	"Test.h"
+
+1567739689 source:c:\_data\dropbox\working\_code\c++\mips\diamondsampling.cpp
+	"DiamondSampling.h"
+	"Utilities.h"
+	"Header.h"
+	<random>
+	"Test.h"
+
+1559118703 c:\_data\dropbox\working\_code\c++\mips\diamondsampling.h
+	"Header.h"
+
+1552295561 source:c:\_data\dropbox\working\_code\c++\mips\cachewedgesampling.cpp
+	"cacheWedgeSampling.h"
+	"Utilities.h"
+	"Header.h"
+	<random>
+	"Test.h"
+
+1552273332 c:\_data\dropbox\working\_code\c++\mips\cachewedgesampling.h
+	"Header.h"
+
+1553251899 source:/home/stephan/MIPS/code/mips/BF.cpp
+	"BF.h"
+	"Utilities.h"
+	"Header.h"
+
+1553251899 /home/stephan/MIPS/code/mips/BF.h
+	"Header.h"
+
+1554209905 /home/stephan/MIPS/code/mips/Header.h
+	<time.h>
+	<chrono>
+	<cstdio>
+	<math.h>
+	<algorithm>
+	<vector>
+	<utility>
+	<string>
+	<Eigen/Dense>
+
+1554294358 /home/stephan/MIPS/code/mips/Utilities.h
+	"Header.h"
+	<iostream>
+	<queue>
+	<unordered_set>
+
+1553611857 source:/home/stephan/MIPS/code/mips/DiamondSampling.cpp
+	"DiamondSampling.h"
+	"Utilities.h"
+	"Header.h"
+	<random>
+	"Test.h"
+
+1553251899 /home/stephan/MIPS/code/mips/DiamondSampling.h
+	"Header.h"
+
+1553251899 /home/stephan/MIPS/code/mips/Test.h
+	"Header.h"
+
+1553251899 source:/home/stephan/MIPS/code/mips/Test.cpp
+	"Utilities.h"
+	"Header.h"
+	"Test.h"
+
+1554294416 source:/home/stephan/MIPS/code/mips/Utilities.cpp
+	"Utilities.h"
+	"Header.h"
+	<vector>
+	<queue>
+	<random>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1553251899 source:/home/stephan/MIPS/code/mips/WedgeSampling.cpp
+	"WedgeSampling.h"
+	"Utilities.h"
+	"Header.h"
+	<random>
+	<unordered_set>
+	"Test.h"
+
+1553251899 /home/stephan/MIPS/code/mips/WedgeSampling.h
+	"Header.h"
+	<queue>
+
+1554215270 source:/home/stephan/MIPS/code/mips/Header.cpp
+	"Header.h"
+
+1554215429 source:/home/stephan/MIPS/code/mips/InputParser.cpp
+	"InputParser.h"
+	"Header.h"
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<string.h>
+
+1553251899 /home/stephan/MIPS/code/mips/InputParser.h
+	"Header.h"
+
+1554302267 source:/home/stephan/MIPS/code/mips/main.cpp
+	"Header.h"
+	"InputParser.h"
+	"Utilities.h"
+	"Test.h"
+	"BF.h"
+	"WedgeSampling.h"
+	"DiamondSampling.h"
+	"Greedy.h"
+	<limits>
+	<time.h>
+	<cstdlib>
+
+1554125213 /home/stephan/MIPS/code/mips/Greedy.h
+	"Header.h"
+
+1554301017 source:/home/stephan/MIPS/code/mips/Greedy.cpp
+	"Greedy.h"
+	"Utilities.h"
+	"Header.h"
+	<random>
+	<numeric>
+	<algorithm>
+	<unordered_set>
+	"Test.h"
+
+1596672308 source:c:\_data\dropbox\working\_code\c++\mips\greedy.cpp
+	"Greedy.h"
+	"Utilities.h"
+	"Header.h"
+
+1586589123 c:\_data\dropbox\working\_code\c++\mips\greedy.h
+	"Header.h"
+
+1573511312 source:c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\bf.cpp
+	"BF.h"
+	"Utilities.h"
+	"Header.h"
+
+1553211588 c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\bf.h
+	"Header.h"
+
+1573175048 c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\header.h
+	<time.h>
+	<chrono>
+	<cstdio>
+	<math.h>
+	<algorithm>
+	<vector>
+	<utility>
+	<unordered_map>
+	<string>
+	<Eigen/Dense>
+
+1573164092 c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\utilities.h
+	"Header.h"
+	<iostream>
+	<queue>
+	<unordered_set>
+	<time.h>
+	<random>
+
+1573772979 source:c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\diamondsampling.cpp
+	"DiamondSampling.h"
+	"Utilities.h"
+	"Header.h"
+
+1559122303 c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\diamondsampling.h
+	"Header.h"
+
+1532087601 c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\test.h
+	"Header.h"
+
+1573166401 source:c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\header.cpp
+	"Header.h"
+
+1532105416 source:c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\test.cpp
+	"Utilities.h"
+	"Header.h"
+	"Test.h"
+
+1572945388 source:c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\utilities.cpp
+	"Utilities.h"
+	"Header.h"
+	<vector>
+	<queue>
+	<random>
+	<fstream>
+	<sstream>
+	<algorithm>
+
+1573772488 source:c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\wedgesampling.cpp
+	"WedgeSampling.h"
+	"Utilities.h"
+	"Header.h"
+
+1573164101 c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\wedgesampling.h
+	"Header.h"
+
+1573164825 source:c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\greedy.cpp
+	"Greedy.h"
+	"Utilities.h"
+	"Header.h"
+	<numeric>
+
+1564707777 c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\greedy.h
+	"Header.h"
+
+1573693379 source:c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\inputparser.cpp
+	"InputParser.h"
+	"Header.h"
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<string.h>
+
+1572908638 c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\inputparser.h
+	"Header.h"
+
+1573782223 source:c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\main.cpp
+	"Header.h"
+	"InputParser.h"
+	"Utilities.h"
+	"Test.h"
+	"BF.h"
+	"WedgeSampling.h"
+	"DiamondSampling.h"
+	"PPSSampling.h"
+	"BottomKSampling.h"
+	"Greedy.h"
+	"SimpleLSH.h"
+	"NormRangeLSH.h"
+	<limits>
+	<cstdlib>
+
+1572903441 c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\prioritysampling.h
+	"Header.h"
+
+1568004594 c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\simplelsh.h
+	"Header.h"
+
+1568089155 c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\normrangelsh.h
+	"Header.h"
+
+1573164793 source:c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\normrangelsh.cpp
+	"NormRangeLSH.h"
+	"Utilities.h"
+	"Header.h"
+
+1572911633 source:c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\prioritysampling.cpp
+	"PrioritySampling.h"
+	"Utilities.h"
+	"Header.h"
+	<random>
+	<numeric>
+	<algorithm>
+	<unordered_set>
+
+1573164754 source:c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\simplelsh.cpp
+	"SimpleLSH.h"
+	"Utilities.h"
+	"Header.h"
+
+1572996448 c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\ppssampling.h
+	"Header.h"
+
+1573268138 source:c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\ppssampling.cpp
+	"PPSSampling.h"
+	"Utilities.h"
+	"Header.h"
+
+1573781526 source:c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\bottomksampling.cpp
+	"BottomKSampling.h"
+	"Utilities.h"
+	"Header.h"
+
+1573443754 c:\_data\dropbox\working\_code\c++\mips_col_maj_n_x_d\bottomksampling.h
+	"Header.h"
+
+1573507712 source:c:\_data\dropbox\working\_code\c++\greedymips\bf.cpp
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
+	"BF.h"
+	"Utilities.h"
+	"Header.h"
+
+<<<<<<< HEAD
+1627273715 /home/npha145/Dropbox/Working/_Code/C++/CEOs2.0/BF.h
+	"Header.h"
+
+1642538208 /home/npha145/Dropbox/Working/_Code/C++/CEOs2.0/Header.h
+	"fht.h"
+	<cstdlib>
+	<chrono>
+	<iostream>
+	<cstdio>
+=======
+1553207988 c:\_data\dropbox\working\_code\c++\greedymips\bf.h
+	"Header.h"
+
+1583490319 c:\_data\dropbox\working\_code\c++\greedymips\header.h
+	<time.h>
+	<chrono>
+	<cstdio>
+	<cmath>
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
+	<algorithm>
+	<vector>
+	<utility>
+	<unordered_map>
+<<<<<<< HEAD
+	<queue>
+	<unordered_set>
+	<string>
+	<time.h>
+	<random>
+	<Eigen/Dense>
+	<boost/dynamic_bitset.hpp>
+
+1639693419 /home/npha145/Dropbox/Working/_Code/C++/CEOs2.0/fht.h
+	<string.h>
+	<stdlib.h>
+
+1629319318 /home/npha145/Library/eigen-3.4.0/Eigen/Dense
+=======
+	<string>
+	<Eigen/Dense>
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\dense
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
+	"Core"
+	"LU"
+	"Cholesky"
+	"QR"
+	"SVD"
+	"Geometry"
+	"Eigenvalues"
+
+<<<<<<< HEAD
+1629319318 /home/npha145/Library/eigen-3.4.0/Eigen/Core
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Core/util/Macros.h"
+	"src/Core/util/ConfigureVectorization.h"
+	<cuda_runtime.h>
+	<hip/hip_runtime.h>
+	<new>
+	<complex>
+	"src/Core/util/MKL_support.h"
+=======
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\core
+	"src/Core/util/DisableStupidWarnings.h"
+	<math_functions.hpp>
+	<new>
+	"src/Core/util/Macros.h"
+	<complex>
+	"src/Core/util/MKL_support.h"
+	<malloc.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<emmintrin.h>
+	<xmmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+	<immintrin.h>
+	<altivec.h>
+	<altivec.h>
+	<arm_neon.h>
+	<vecintrin.h>
+	<vector_types.h>
+	<host_defines.h>
+	<cuda_fp16.h>
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
+	<omp.h>
+	<cerrno>
+	<cstddef>
+	<cstdlib>
+	<cmath>
+	<cassert>
+	<functional>
+<<<<<<< HEAD
+	<sstream>
+=======
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
+	<iosfwd>
+	<cstring>
+	<string>
+	<limits>
+	<climits>
+	<algorithm>
+<<<<<<< HEAD
+	<array>
+	<type_traits>
+	<iostream>
+	<intrin.h>
+	<CL/sycl.hpp>
+	<map>
+	<memory>
+	<utility>
+	<thread>
+=======
+	<type_traits>
+	<iostream>
+	<intrin.h>
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
+	"src/Core/util/Constants.h"
+	"src/Core/util/Meta.h"
+	"src/Core/util/ForwardDeclarations.h"
+	"src/Core/util/StaticAssert.h"
+	"src/Core/util/XprHelper.h"
+	"src/Core/util/Memory.h"
+<<<<<<< HEAD
+	"src/Core/util/IntegralConstant.h"
+	"src/Core/util/SymbolicIndex.h"
+=======
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
+	"src/Core/NumTraits.h"
+	"src/Core/MathFunctions.h"
+	"src/Core/GenericPacketMath.h"
+	"src/Core/MathFunctionsImpl.h"
+<<<<<<< HEAD
+	"src/Core/arch/Default/ConjHelper.h"
+	"src/Core/arch/Default/Half.h"
+	"src/Core/arch/Default/BFloat16.h"
+	"src/Core/arch/Default/TypeCasting.h"
+	"src/Core/arch/Default/GenericPacketMathFunctionsFwd.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/TypeCasting.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/AVX/PacketMath.h"
+	"src/Core/arch/AVX/TypeCasting.h"
+	"src/Core/arch/AVX/Complex.h"
+	"src/Core/arch/AVX512/PacketMath.h"
+	"src/Core/arch/AVX512/TypeCasting.h"
+	"src/Core/arch/AVX512/Complex.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/AVX/MathFunctions.h"
+	"src/Core/arch/AVX512/MathFunctions.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/TypeCasting.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/AVX/PacketMath.h"
+	"src/Core/arch/AVX/TypeCasting.h"
+	"src/Core/arch/AVX/Complex.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/AVX/MathFunctions.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/TypeCasting.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/SSE/Complex.h"
+=======
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/AVX/PacketMath.h"
+	"src/Core/arch/AVX512/PacketMath.h"
+	"src/Core/arch/AVX512/MathFunctions.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/AVX/PacketMath.h"
+	"src/Core/arch/AVX/MathFunctions.h"
+	"src/Core/arch/AVX/Complex.h"
+	"src/Core/arch/AVX/TypeCasting.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/SSE/TypeCasting.h"
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
+	"src/Core/arch/AltiVec/PacketMath.h"
+	"src/Core/arch/AltiVec/MathFunctions.h"
+	"src/Core/arch/AltiVec/Complex.h"
+	"src/Core/arch/NEON/PacketMath.h"
+<<<<<<< HEAD
+	"src/Core/arch/NEON/TypeCasting.h"
+	"src/Core/arch/NEON/MathFunctions.h"
+	"src/Core/arch/NEON/Complex.h"
+	"src/Core/arch/SVE/PacketMath.h"
+	"src/Core/arch/SVE/TypeCasting.h"
+	"src/Core/arch/SVE/MathFunctions.h"
+	"src/Core/arch/ZVector/PacketMath.h"
+	"src/Core/arch/ZVector/MathFunctions.h"
+	"src/Core/arch/ZVector/Complex.h"
+	"src/Core/arch/MSA/PacketMath.h"
+	"src/Core/arch/MSA/MathFunctions.h"
+	"src/Core/arch/MSA/Complex.h"
+	"src/Core/arch/GPU/PacketMath.h"
+	"src/Core/arch/GPU/MathFunctions.h"
+	"src/Core/arch/GPU/TypeCasting.h"
+	"src/Core/arch/SYCL/SyclMemoryModel.h"
+	"src/Core/arch/SYCL/InteropHeaders.h"
+	"src/Core/arch/SYCL/PacketMath.h"
+	"src/Core/arch/SYCL/MathFunctions.h"
+	"src/Core/arch/SYCL/TypeCasting.h"
+	"src/Core/arch/Default/Settings.h"
+	"src/Core/arch/Default/GenericPacketMathFunctions.h"
+=======
+	"src/Core/arch/NEON/MathFunctions.h"
+	"src/Core/arch/NEON/Complex.h"
+	"src/Core/arch/ZVector/PacketMath.h"
+	"src/Core/arch/ZVector/MathFunctions.h"
+	"src/Core/arch/ZVector/Complex.h"
+	"src/Core/arch/CUDA/Half.h"
+	"src/Core/arch/CUDA/PacketMathHalf.h"
+	"src/Core/arch/CUDA/TypeCasting.h"
+	"src/Core/arch/CUDA/PacketMath.h"
+	"src/Core/arch/CUDA/MathFunctions.h"
+	"src/Core/arch/Default/Settings.h"
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
+	"src/Core/functors/TernaryFunctors.h"
+	"src/Core/functors/BinaryFunctors.h"
+	"src/Core/functors/UnaryFunctors.h"
+	"src/Core/functors/NullaryFunctors.h"
+	"src/Core/functors/StlFunctors.h"
+	"src/Core/functors/AssignmentFunctors.h"
+	"src/Core/arch/CUDA/Complex.h"
+<<<<<<< HEAD
+	"src/Core/util/IndexedViewHelper.h"
+	"src/Core/util/ReshapedHelper.h"
+	"src/Core/ArithmeticSequence.h"
+=======
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
+	"src/Core/IO.h"
+	"src/Core/DenseCoeffsBase.h"
+	"src/Core/DenseBase.h"
+	"src/Core/MatrixBase.h"
+	"src/Core/EigenBase.h"
+	"src/Core/Product.h"
+	"src/Core/CoreEvaluators.h"
+	"src/Core/AssignEvaluator.h"
+	"src/Core/Assign.h"
+	"src/Core/ArrayBase.h"
+	"src/Core/util/BlasUtil.h"
+	"src/Core/DenseStorage.h"
+	"src/Core/NestByValue.h"
+	"src/Core/ReturnByValue.h"
+	"src/Core/NoAlias.h"
+	"src/Core/PlainObjectBase.h"
+	"src/Core/Matrix.h"
+	"src/Core/Array.h"
+	"src/Core/CwiseTernaryOp.h"
+	"src/Core/CwiseBinaryOp.h"
+	"src/Core/CwiseUnaryOp.h"
+	"src/Core/CwiseNullaryOp.h"
+	"src/Core/CwiseUnaryView.h"
+	"src/Core/SelfCwiseBinaryOp.h"
+	"src/Core/Dot.h"
+	"src/Core/StableNorm.h"
+	"src/Core/Stride.h"
+	"src/Core/MapBase.h"
+	"src/Core/Map.h"
+	"src/Core/Ref.h"
+	"src/Core/Block.h"
+	"src/Core/VectorBlock.h"
+<<<<<<< HEAD
+	"src/Core/IndexedView.h"
+	"src/Core/Reshaped.h"
+=======
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
+	"src/Core/Transpose.h"
+	"src/Core/DiagonalMatrix.h"
+	"src/Core/Diagonal.h"
+	"src/Core/DiagonalProduct.h"
+	"src/Core/Redux.h"
+	"src/Core/Visitor.h"
+	"src/Core/Fuzzy.h"
+	"src/Core/Swap.h"
+	"src/Core/CommaInitializer.h"
+	"src/Core/GeneralProduct.h"
+	"src/Core/Solve.h"
+	"src/Core/Inverse.h"
+	"src/Core/SolverBase.h"
+	"src/Core/PermutationMatrix.h"
+	"src/Core/Transpositions.h"
+	"src/Core/TriangularMatrix.h"
+	"src/Core/SelfAdjointView.h"
+	"src/Core/products/GeneralBlockPanelKernel.h"
+	"src/Core/products/Parallelizer.h"
+	"src/Core/ProductEvaluators.h"
+	"src/Core/products/GeneralMatrixVector.h"
+	"src/Core/products/GeneralMatrixMatrix.h"
+	"src/Core/SolveTriangular.h"
+	"src/Core/products/GeneralMatrixMatrixTriangular.h"
+	"src/Core/products/SelfadjointMatrixVector.h"
+	"src/Core/products/SelfadjointMatrixMatrix.h"
+	"src/Core/products/SelfadjointProduct.h"
+	"src/Core/products/SelfadjointRank2Update.h"
+	"src/Core/products/TriangularMatrixVector.h"
+	"src/Core/products/TriangularMatrixMatrix.h"
+	"src/Core/products/TriangularSolverMatrix.h"
+	"src/Core/products/TriangularSolverVector.h"
+	"src/Core/BandMatrix.h"
+	"src/Core/CoreIterators.h"
+	"src/Core/ConditionEstimator.h"
+<<<<<<< HEAD
+	"src/Core/arch/AltiVec/MatrixProduct.h"
+	"src/Core/arch/NEON/GeneralBlockPanelKernel.h"
+	"src/Core/BooleanRedux.h"
+	"src/Core/Select.h"
+	"src/Core/VectorwiseOp.h"
+	"src/Core/PartialReduxEvaluator.h"
+=======
+	"src/Core/BooleanRedux.h"
+	"src/Core/Select.h"
+	"src/Core/VectorwiseOp.h"
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
+	"src/Core/Random.h"
+	"src/Core/Replicate.h"
+	"src/Core/Reverse.h"
+	"src/Core/ArrayWrapper.h"
+<<<<<<< HEAD
+	"src/Core/StlIterators.h"
+=======
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
+	"src/Core/products/GeneralMatrixMatrix_BLAS.h"
+	"src/Core/products/GeneralMatrixVector_BLAS.h"
+	"src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h"
+	"src/Core/products/SelfadjointMatrixMatrix_BLAS.h"
+	"src/Core/products/SelfadjointMatrixVector_BLAS.h"
+	"src/Core/products/TriangularMatrixMatrix_BLAS.h"
+	"src/Core/products/TriangularMatrixVector_BLAS.h"
+	"src/Core/products/TriangularSolverMatrix_BLAS.h"
+	"src/Core/Assign_MKL.h"
+	"src/Core/GlobalFunctions.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+<<<<<<< HEAD
 1629319318 /home/npha145/Library/eigen-3.4.0/Eigen/src/Core/util/DisableStupidWarnings.h
 
 1629319318 /home/npha145/Library/eigen-3.4.0/Eigen/src/Core/util/Macros.h
@@ -7969,4 +9528,1411 @@
 	"NormRangeLSH.h"
 	"Utilities.h"
 	"Header.h"
+=======
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\util\disablestupidwarnings.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\util\macros.h
+	<cstdlib>
+	<iostream>
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\util\mkl_support.h
+	<mkl.h>
+	"../../misc/blas.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\misc\blas.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\util\constants.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\util\meta.h
+	<cfloat>
+	<math_constants.h>
+	<cstdint>
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\util\forwarddeclarations.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\util\staticassert.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\util\xprhelper.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\util\memory.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\numtraits.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\mathfunctions.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\genericpacketmath.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\mathfunctionsimpl.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\sse\packetmath.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\avx\packetmath.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\avx512\packetmath.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\avx512\mathfunctions.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\sse\complex.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\sse\mathfunctions.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\avx\mathfunctions.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\avx\complex.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\avx\typecasting.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\sse\typecasting.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\altivec\packetmath.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\altivec\mathfunctions.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\altivec\complex.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\neon\packetmath.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\neon\mathfunctions.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\neon\complex.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\zvector\packetmath.h
+	<stdint.h>
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\zvector\mathfunctions.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\zvector\complex.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\cuda\half.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\cuda\packetmathhalf.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\cuda\typecasting.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\cuda\packetmath.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\cuda\mathfunctions.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\default\settings.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\functors\ternaryfunctors.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\functors\binaryfunctors.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\functors\unaryfunctors.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\functors\nullaryfunctors.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\functors\stlfunctors.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\functors\assignmentfunctors.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arch\cuda\complex.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\io.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\densecoeffsbase.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\densebase.h
+	"../plugins/BlockMethods.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\plugins\blockmethods.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\matrixbase.h
+	"../plugins/CommonCwiseUnaryOps.h"
+	"../plugins/CommonCwiseBinaryOps.h"
+	"../plugins/MatrixCwiseUnaryOps.h"
+	"../plugins/MatrixCwiseBinaryOps.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\plugins\commoncwiseunaryops.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\plugins\commoncwisebinaryops.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\plugins\matrixcwiseunaryops.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\plugins\matrixcwisebinaryops.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\eigenbase.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\product.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\coreevaluators.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\assignevaluator.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\assign.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arraybase.h
+	"../plugins/CommonCwiseUnaryOps.h"
+	"../plugins/MatrixCwiseUnaryOps.h"
+	"../plugins/ArrayCwiseUnaryOps.h"
+	"../plugins/CommonCwiseBinaryOps.h"
+	"../plugins/MatrixCwiseBinaryOps.h"
+	"../plugins/ArrayCwiseBinaryOps.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\plugins\arraycwiseunaryops.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\plugins\arraycwisebinaryops.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\util\blasutil.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\densestorage.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\nestbyvalue.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\returnbyvalue.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\noalias.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\plainobjectbase.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\matrix.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\array.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\cwiseternaryop.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\cwisebinaryop.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\cwiseunaryop.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\cwisenullaryop.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\cwiseunaryview.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\selfcwisebinaryop.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\dot.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\stablenorm.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\stride.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\mapbase.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\map.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\ref.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\block.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\vectorblock.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\transpose.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\diagonalmatrix.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\diagonal.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\diagonalproduct.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\redux.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\visitor.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\fuzzy.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\swap.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\commainitializer.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\generalproduct.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\solve.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\inverse.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\solverbase.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\permutationmatrix.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\transpositions.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\triangularmatrix.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\selfadjointview.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\generalblockpanelkernel.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\parallelizer.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\productevaluators.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\generalmatrixvector.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\generalmatrixmatrix.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\solvetriangular.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\generalmatrixmatrixtriangular.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\selfadjointmatrixvector.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\selfadjointmatrixmatrix.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\selfadjointproduct.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\selfadjointrank2update.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\triangularmatrixvector.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\triangularmatrixmatrix.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\triangularsolvermatrix.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\triangularsolvervector.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\bandmatrix.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\coreiterators.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\conditionestimator.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\booleanredux.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\select.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\vectorwiseop.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\random.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\replicate.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\reverse.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\arraywrapper.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\generalmatrixmatrix_blas.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\generalmatrixvector_blas.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\generalmatrixmatrixtriangular_blas.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\selfadjointmatrixmatrix_blas.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\selfadjointmatrixvector_blas.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\triangularmatrixmatrix_blas.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\triangularmatrixvector_blas.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\products\triangularsolvermatrix_blas.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\assign_mkl.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\globalfunctions.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\core\util\reenablestupidwarnings.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\lu
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/Kernel.h"
+	"src/misc/Image.h"
+	"src/LU/FullPivLU.h"
+	"src/LU/PartialPivLU.h"
+	"src/misc/lapacke.h"
+	"src/LU/PartialPivLU_LAPACKE.h"
+	"src/LU/Determinant.h"
+	"src/LU/InverseImpl.h"
+	"src/LU/arch/Inverse_SSE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\misc\kernel.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\misc\image.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\lu\fullpivlu.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\lu\partialpivlu.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\misc\lapacke.h
+	"lapacke_config.h"
+	<stdlib.h>
+	<complex.h>
+	<complex.h>
+	"lapacke_mangling.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\misc\lapacke_mangling.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\lu\partialpivlu_lapacke.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\lu\determinant.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\lu\inverseimpl.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\lu\arch\inverse_sse.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\cholesky
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Cholesky/LLT.h"
+	"src/Cholesky/LDLT.h"
+	"src/misc/lapacke.h"
+	"src/Cholesky/LLT_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\cholesky\llt.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\cholesky\ldlt.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\cholesky\llt_lapacke.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\qr
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"Cholesky"
+	"Jacobi"
+	"Householder"
+	"src/QR/HouseholderQR.h"
+	"src/QR/FullPivHouseholderQR.h"
+	"src/QR/ColPivHouseholderQR.h"
+	"src/QR/CompleteOrthogonalDecomposition.h"
+	"src/misc/lapacke.h"
+	"src/QR/HouseholderQR_LAPACKE.h"
+	"src/QR/ColPivHouseholderQR_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\jacobi
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Jacobi/Jacobi.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\jacobi\jacobi.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\householder
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Householder/Householder.h"
+	"src/Householder/HouseholderSequence.h"
+	"src/Householder/BlockHouseholder.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\householder\householder.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\householder\householdersequence.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\householder\blockhouseholder.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\qr\householderqr.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\qr\fullpivhouseholderqr.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\qr\colpivhouseholderqr.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\qr\completeorthogonaldecomposition.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\qr\householderqr_lapacke.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\qr\colpivhouseholderqr_lapacke.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\svd
+	"QR"
+	"Householder"
+	"Jacobi"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/RealSvd2x2.h"
+	"src/SVD/UpperBidiagonalization.h"
+	"src/SVD/SVDBase.h"
+	"src/SVD/JacobiSVD.h"
+	"src/SVD/BDCSVD.h"
+	"src/misc/lapacke.h"
+	"src/SVD/JacobiSVD_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\misc\realsvd2x2.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\svd\upperbidiagonalization.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\svd\svdbase.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\svd\jacobisvd.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\svd\bdcsvd.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\svd\jacobisvd_lapacke.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\geometry
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"SVD"
+	"LU"
+	<limits>
+	"src/Geometry/OrthoMethods.h"
+	"src/Geometry/EulerAngles.h"
+	"src/Geometry/Homogeneous.h"
+	"src/Geometry/RotationBase.h"
+	"src/Geometry/Rotation2D.h"
+	"src/Geometry/Quaternion.h"
+	"src/Geometry/AngleAxis.h"
+	"src/Geometry/Transform.h"
+	"src/Geometry/Translation.h"
+	"src/Geometry/Scaling.h"
+	"src/Geometry/Hyperplane.h"
+	"src/Geometry/ParametrizedLine.h"
+	"src/Geometry/AlignedBox.h"
+	"src/Geometry/Umeyama.h"
+	"src/Geometry/arch/Geometry_SSE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\geometry\orthomethods.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\geometry\eulerangles.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\geometry\homogeneous.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\geometry\rotationbase.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\geometry\rotation2d.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\geometry\quaternion.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\geometry\angleaxis.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\geometry\transform.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\geometry\translation.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\geometry\scaling.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\geometry\hyperplane.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\geometry\parametrizedline.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\geometry\alignedbox.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\geometry\umeyama.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\geometry\arch\geometry_sse.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\eigenvalues
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"Cholesky"
+	"Jacobi"
+	"Householder"
+	"LU"
+	"Geometry"
+	"src/misc/RealSvd2x2.h"
+	"src/Eigenvalues/Tridiagonalization.h"
+	"src/Eigenvalues/RealSchur.h"
+	"src/Eigenvalues/EigenSolver.h"
+	"src/Eigenvalues/SelfAdjointEigenSolver.h"
+	"src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h"
+	"src/Eigenvalues/HessenbergDecomposition.h"
+	"src/Eigenvalues/ComplexSchur.h"
+	"src/Eigenvalues/ComplexEigenSolver.h"
+	"src/Eigenvalues/RealQZ.h"
+	"src/Eigenvalues/GeneralizedEigenSolver.h"
+	"src/Eigenvalues/MatrixBaseEigenvalues.h"
+	"src/misc/lapacke.h"
+	"src/Eigenvalues/RealSchur_LAPACKE.h"
+	"src/Eigenvalues/ComplexSchur_LAPACKE.h"
+	"src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\tridiagonalization.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\realschur.h
+	"./HessenbergDecomposition.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\hessenbergdecomposition.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\eigensolver.h
+	"./RealSchur.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\selfadjointeigensolver.h
+	"./Tridiagonalization.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\generalizedselfadjointeigensolver.h
+	"./Tridiagonalization.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\complexschur.h
+	"./HessenbergDecomposition.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\complexeigensolver.h
+	"./ComplexSchur.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\realqz.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\generalizedeigensolver.h
+	"./RealQZ.h"
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\matrixbaseeigenvalues.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\realschur_lapacke.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\complexschur_lapacke.h
+
+1497510620 c:\_data\libraries\eigen-eigen-5a0156e40feb\eigen\src\eigenvalues\selfadjointeigensolver_lapacke.h
+
+1586596015 c:\_data\dropbox\working\_code\c++\greedymips\utilities.h
+	"Header.h"
+	<iostream>
+	<queue>
+	<unordered_set>
+	<unordered_map>
+	<time.h>
+	<random>
+
+1586585445 source:c:\_data\dropbox\working\_code\c++\greedymips\diamondsampling.cpp
+	"DiamondSampling.h"
+	"Utilities.h"
+	"Header.h"
+
+1586585447 c:\_data\dropbox\working\_code\c++\greedymips\diamondsampling.h
+	"Header.h"
+
+1586585523 source:c:\_data\dropbox\working\_code\c++\greedymips\greedy.cpp
+	"Greedy.h"
+	"Utilities.h"
+	"Header.h"
+	<numeric>
+
+1586585523 c:\_data\dropbox\working\_code\c++\greedymips\greedy.h
+	"Header.h"
+
+1583490294 source:c:\_data\dropbox\working\_code\c++\greedymips\header.cpp
+	"Header.h"
+
+1587377259 source:c:\_data\dropbox\working\_code\c++\greedymips\inputparser.cpp
+	"InputParser.h"
+	"Header.h"
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<vector>
+	<string.h>
+
+1572905038 c:\_data\dropbox\working\_code\c++\greedymips\inputparser.h
+	"Header.h"
+
+1587377842 source:c:\_data\dropbox\working\_code\c++\greedymips\main.cpp
+	"Header.h"
+	"InputParser.h"
+	"Utilities.h"
+	"Test.h"
+	"BF.h"
+	"WedgeSampling.h"
+	"DiamondSampling.h"
+	"Greedy.h"
+	"SimpleLSH.h"
+	"NormRangeLSH.h"
+	<limits>
+	<cstdlib>
+	<chrono>
+
+1532084001 c:\_data\dropbox\working\_code\c++\greedymips\test.h
+	"Header.h"
+
+1587378399 c:\_data\dropbox\working\_code\c++\greedymips\wedgesampling.h
+	"Header.h"
+
+1586585698 c:\_data\dropbox\working\_code\c++\greedymips\simplelsh.h
+	"Header.h"
+
+1586585836 c:\_data\dropbox\working\_code\c++\greedymips\normrangelsh.h
+	"Header.h"
+
+1586585836 source:c:\_data\dropbox\working\_code\c++\greedymips\normrangelsh.cpp
+	"NormRangeLSH.h"
+	"Utilities.h"
+	"Header.h"
+
+1586585695 source:c:\_data\dropbox\working\_code\c++\greedymips\simplelsh.cpp
+	"SimpleLSH.h"
+	"Utilities.h"
+	"Header.h"
+
+1532101816 source:c:\_data\dropbox\working\_code\c++\greedymips\test.cpp
+	"Utilities.h"
+	"Header.h"
+	"Test.h"
+
+1586055957 source:c:\_data\dropbox\working\_code\c++\greedymips\utilities.cpp
+	"Utilities.h"
+	"Header.h"
+	<vector>
+	<queue>
+	<random>
+	<fstream>
+	<sstream>
+	<algorithm>
+	<unordered_map>
+	<unordered_set>
+
+1587542779 source:c:\_data\dropbox\working\_code\c++\greedymips\wedgesampling.cpp
+	"WedgeSampling.h"
+	"Utilities.h"
+	"Header.h"
+
+1599739228 source:c:\_data\dropbox\working\_code\c++\mips\normrangelsh.cpp
+	"NormRangeLSH.h"
+	"Utilities.h"
+	"Header.h"
+
+1599739178 c:\_data\dropbox\working\_code\c++\mips\normrangelsh.h
+	"Header.h"
+
+1596671830 source:c:\_data\dropbox\working\_code\c++\mips\prioritysampling.cpp
+	"PrioritySampling.h"
+	"Utilities.h"
+	"Header.h"
+
+1588548578 c:\_data\dropbox\working\_code\c++\mips\prioritysampling.h
+	"Header.h"
+
+1599544332 source:c:\_data\dropbox\working\_code\c++\mips\simplelsh.cpp
+	"SimpleLSH.h"
+	"Utilities.h"
+	"Header.h"
+
+1597921852 c:\_data\dropbox\working\_code\c++\mips\simplelsh.h
+	"Header.h"
+
+1599531136 source:c:\_data\dropbox\working\_code\c++\mips\concomitant.cpp
+	"Concomitant.h"
+	"Utilities.h"
+	"Header.h"
+
+1599087215 c:\_data\dropbox\working\_code\c++\mips\concomitant.h
+	"Header.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\dense
+	"Core"
+	"LU"
+	"Cholesky"
+	"QR"
+	"SVD"
+	"Geometry"
+	"Eigenvalues"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\core
+	"src/Core/util/DisableStupidWarnings.h"
+	<cuda_runtime.h>
+	<new>
+	"src/Core/util/Macros.h"
+	<complex>
+	"src/Core/util/MKL_support.h"
+	<malloc.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<emmintrin.h>
+	<xmmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+	<immintrin.h>
+	<altivec.h>
+	<altivec.h>
+	<arm_neon.h>
+	<vecintrin.h>
+	<vector_types.h>
+	<host_defines.h>
+	<cuda_fp16.h>
+	<omp.h>
+	<cerrno>
+	<cstddef>
+	<cstdlib>
+	<cmath>
+	<cassert>
+	<functional>
+	<sstream>
+	<iosfwd>
+	<cstring>
+	<string>
+	<limits>
+	<climits>
+	<algorithm>
+	<type_traits>
+	<iostream>
+	<intrin.h>
+	"src/Core/util/Constants.h"
+	"src/Core/util/Meta.h"
+	"src/Core/util/ForwardDeclarations.h"
+	"src/Core/util/StaticAssert.h"
+	"src/Core/util/XprHelper.h"
+	"src/Core/util/Memory.h"
+	"src/Core/NumTraits.h"
+	"src/Core/MathFunctions.h"
+	"src/Core/GenericPacketMath.h"
+	"src/Core/MathFunctionsImpl.h"
+	"src/Core/arch/Default/ConjHelper.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/AVX/PacketMath.h"
+	"src/Core/arch/AVX/MathFunctions.h"
+	"src/Core/arch/AVX512/PacketMath.h"
+	"src/Core/arch/AVX512/MathFunctions.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/AVX/PacketMath.h"
+	"src/Core/arch/AVX/MathFunctions.h"
+	"src/Core/arch/AVX/Complex.h"
+	"src/Core/arch/AVX/TypeCasting.h"
+	"src/Core/arch/SSE/TypeCasting.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/SSE/TypeCasting.h"
+	"src/Core/arch/AltiVec/PacketMath.h"
+	"src/Core/arch/AltiVec/MathFunctions.h"
+	"src/Core/arch/AltiVec/Complex.h"
+	"src/Core/arch/NEON/PacketMath.h"
+	"src/Core/arch/NEON/MathFunctions.h"
+	"src/Core/arch/NEON/Complex.h"
+	"src/Core/arch/ZVector/PacketMath.h"
+	"src/Core/arch/ZVector/MathFunctions.h"
+	"src/Core/arch/ZVector/Complex.h"
+	"src/Core/arch/CUDA/Half.h"
+	"src/Core/arch/CUDA/PacketMathHalf.h"
+	"src/Core/arch/CUDA/TypeCasting.h"
+	"src/Core/arch/CUDA/PacketMath.h"
+	"src/Core/arch/CUDA/MathFunctions.h"
+	"src/Core/arch/Default/Settings.h"
+	"src/Core/functors/TernaryFunctors.h"
+	"src/Core/functors/BinaryFunctors.h"
+	"src/Core/functors/UnaryFunctors.h"
+	"src/Core/functors/NullaryFunctors.h"
+	"src/Core/functors/StlFunctors.h"
+	"src/Core/functors/AssignmentFunctors.h"
+	"src/Core/arch/CUDA/Complex.h"
+	"src/Core/IO.h"
+	"src/Core/DenseCoeffsBase.h"
+	"src/Core/DenseBase.h"
+	"src/Core/MatrixBase.h"
+	"src/Core/EigenBase.h"
+	"src/Core/Product.h"
+	"src/Core/CoreEvaluators.h"
+	"src/Core/AssignEvaluator.h"
+	"src/Core/Assign.h"
+	"src/Core/ArrayBase.h"
+	"src/Core/util/BlasUtil.h"
+	"src/Core/DenseStorage.h"
+	"src/Core/NestByValue.h"
+	"src/Core/ReturnByValue.h"
+	"src/Core/NoAlias.h"
+	"src/Core/PlainObjectBase.h"
+	"src/Core/Matrix.h"
+	"src/Core/Array.h"
+	"src/Core/CwiseTernaryOp.h"
+	"src/Core/CwiseBinaryOp.h"
+	"src/Core/CwiseUnaryOp.h"
+	"src/Core/CwiseNullaryOp.h"
+	"src/Core/CwiseUnaryView.h"
+	"src/Core/SelfCwiseBinaryOp.h"
+	"src/Core/Dot.h"
+	"src/Core/StableNorm.h"
+	"src/Core/Stride.h"
+	"src/Core/MapBase.h"
+	"src/Core/Map.h"
+	"src/Core/Ref.h"
+	"src/Core/Block.h"
+	"src/Core/VectorBlock.h"
+	"src/Core/Transpose.h"
+	"src/Core/DiagonalMatrix.h"
+	"src/Core/Diagonal.h"
+	"src/Core/DiagonalProduct.h"
+	"src/Core/Redux.h"
+	"src/Core/Visitor.h"
+	"src/Core/Fuzzy.h"
+	"src/Core/Swap.h"
+	"src/Core/CommaInitializer.h"
+	"src/Core/GeneralProduct.h"
+	"src/Core/Solve.h"
+	"src/Core/Inverse.h"
+	"src/Core/SolverBase.h"
+	"src/Core/PermutationMatrix.h"
+	"src/Core/Transpositions.h"
+	"src/Core/TriangularMatrix.h"
+	"src/Core/SelfAdjointView.h"
+	"src/Core/products/GeneralBlockPanelKernel.h"
+	"src/Core/products/Parallelizer.h"
+	"src/Core/ProductEvaluators.h"
+	"src/Core/products/GeneralMatrixVector.h"
+	"src/Core/products/GeneralMatrixMatrix.h"
+	"src/Core/SolveTriangular.h"
+	"src/Core/products/GeneralMatrixMatrixTriangular.h"
+	"src/Core/products/SelfadjointMatrixVector.h"
+	"src/Core/products/SelfadjointMatrixMatrix.h"
+	"src/Core/products/SelfadjointProduct.h"
+	"src/Core/products/SelfadjointRank2Update.h"
+	"src/Core/products/TriangularMatrixVector.h"
+	"src/Core/products/TriangularMatrixMatrix.h"
+	"src/Core/products/TriangularSolverMatrix.h"
+	"src/Core/products/TriangularSolverVector.h"
+	"src/Core/BandMatrix.h"
+	"src/Core/CoreIterators.h"
+	"src/Core/ConditionEstimator.h"
+	"src/Core/BooleanRedux.h"
+	"src/Core/Select.h"
+	"src/Core/VectorwiseOp.h"
+	"src/Core/Random.h"
+	"src/Core/Replicate.h"
+	"src/Core/Reverse.h"
+	"src/Core/ArrayWrapper.h"
+	"src/Core/products/GeneralMatrixMatrix_BLAS.h"
+	"src/Core/products/GeneralMatrixVector_BLAS.h"
+	"src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h"
+	"src/Core/products/SelfadjointMatrixMatrix_BLAS.h"
+	"src/Core/products/SelfadjointMatrixVector_BLAS.h"
+	"src/Core/products/TriangularMatrixMatrix_BLAS.h"
+	"src/Core/products/TriangularMatrixVector_BLAS.h"
+	"src/Core/products/TriangularSolverMatrix_BLAS.h"
+	"src/Core/Assign_MKL.h"
+	"src/Core/GlobalFunctions.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\util\disablestupidwarnings.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\util\macros.h
+	<cstdlib>
+	<iostream>
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\util\mkl_support.h
+	<mkl.h>
+	"../../misc/blas.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\misc\blas.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\util\constants.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\util\meta.h
+	<cfloat>
+	<math_constants.h>
+	<cstdint>
+	<cstdint>
+	<stdint.h>
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\util\forwarddeclarations.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\util\staticassert.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\util\xprhelper.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\util\memory.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\numtraits.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\mathfunctions.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\genericpacketmath.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\mathfunctionsimpl.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\default\conjhelper.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\sse\packetmath.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\sse\mathfunctions.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\avx\packetmath.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\avx\mathfunctions.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\avx512\packetmath.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\avx512\mathfunctions.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\sse\complex.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\avx\complex.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\avx\typecasting.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\sse\typecasting.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\altivec\packetmath.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\altivec\mathfunctions.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\altivec\complex.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\neon\packetmath.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\neon\mathfunctions.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\neon\complex.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\zvector\packetmath.h
+	<stdint.h>
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\zvector\mathfunctions.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\zvector\complex.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\cuda\half.h
+	<sstream>
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\cuda\packetmathhalf.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\cuda\typecasting.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\cuda\packetmath.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\cuda\mathfunctions.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\default\settings.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\functors\ternaryfunctors.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\functors\binaryfunctors.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\functors\unaryfunctors.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\functors\nullaryfunctors.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\functors\stlfunctors.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\functors\assignmentfunctors.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arch\cuda\complex.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\io.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\densecoeffsbase.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\densebase.h
+	"../plugins/BlockMethods.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\plugins\blockmethods.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\matrixbase.h
+	"../plugins/CommonCwiseUnaryOps.h"
+	"../plugins/CommonCwiseBinaryOps.h"
+	"../plugins/MatrixCwiseUnaryOps.h"
+	"../plugins/MatrixCwiseBinaryOps.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\plugins\commoncwiseunaryops.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\plugins\commoncwisebinaryops.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\plugins\matrixcwiseunaryops.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\plugins\matrixcwisebinaryops.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\eigenbase.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\product.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\coreevaluators.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\assignevaluator.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\assign.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arraybase.h
+	"../plugins/CommonCwiseUnaryOps.h"
+	"../plugins/MatrixCwiseUnaryOps.h"
+	"../plugins/ArrayCwiseUnaryOps.h"
+	"../plugins/CommonCwiseBinaryOps.h"
+	"../plugins/MatrixCwiseBinaryOps.h"
+	"../plugins/ArrayCwiseBinaryOps.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\plugins\arraycwiseunaryops.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\plugins\arraycwisebinaryops.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\util\blasutil.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\densestorage.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\nestbyvalue.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\returnbyvalue.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\noalias.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\plainobjectbase.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\matrix.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\array.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\cwiseternaryop.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\cwisebinaryop.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\cwiseunaryop.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\cwisenullaryop.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\cwiseunaryview.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\selfcwisebinaryop.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\dot.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\stablenorm.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\stride.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\mapbase.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\map.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\ref.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\block.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\vectorblock.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\transpose.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\diagonalmatrix.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\diagonal.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\diagonalproduct.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\redux.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\visitor.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\fuzzy.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\swap.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\commainitializer.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\generalproduct.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\solve.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\inverse.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\solverbase.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\permutationmatrix.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\transpositions.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\triangularmatrix.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\selfadjointview.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\generalblockpanelkernel.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\parallelizer.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\productevaluators.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\generalmatrixvector.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\generalmatrixmatrix.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\solvetriangular.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\generalmatrixmatrixtriangular.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\selfadjointmatrixvector.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\selfadjointmatrixmatrix.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\selfadjointproduct.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\selfadjointrank2update.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\triangularmatrixvector.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\triangularmatrixmatrix.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\triangularsolvermatrix.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\triangularsolvervector.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\bandmatrix.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\coreiterators.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\conditionestimator.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\booleanredux.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\select.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\vectorwiseop.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\random.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\replicate.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\reverse.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\arraywrapper.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\generalmatrixmatrix_blas.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\generalmatrixvector_blas.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\generalmatrixmatrixtriangular_blas.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\selfadjointmatrixmatrix_blas.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\selfadjointmatrixvector_blas.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\triangularmatrixmatrix_blas.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\triangularmatrixvector_blas.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\products\triangularsolvermatrix_blas.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\assign_mkl.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\globalfunctions.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\core\util\reenablestupidwarnings.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\lu
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/Kernel.h"
+	"src/misc/Image.h"
+	"src/LU/FullPivLU.h"
+	"src/LU/PartialPivLU.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/LU/PartialPivLU_LAPACKE.h"
+	"src/LU/Determinant.h"
+	"src/LU/InverseImpl.h"
+	"src/LU/arch/Inverse_SSE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\misc\kernel.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\misc\image.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\lu\fullpivlu.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\lu\partialpivlu.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\misc\lapacke.h
+	"lapacke_config.h"
+	<stdlib.h>
+	<complex.h>
+	<complex.h>
+	"lapacke_mangling.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\misc\lapacke_mangling.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\lu\partialpivlu_lapacke.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\lu\determinant.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\lu\inverseimpl.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\lu\arch\inverse_sse.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\cholesky
+	"Core"
+	"Jacobi"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Cholesky/LLT.h"
+	"src/Cholesky/LDLT.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/Cholesky/LLT_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\jacobi
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Jacobi/Jacobi.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\jacobi\jacobi.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\cholesky\llt.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\cholesky\ldlt.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\cholesky\llt_lapacke.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\qr
+	"Core"
+	"Cholesky"
+	"Jacobi"
+	"Householder"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/QR/HouseholderQR.h"
+	"src/QR/FullPivHouseholderQR.h"
+	"src/QR/ColPivHouseholderQR.h"
+	"src/QR/CompleteOrthogonalDecomposition.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/QR/HouseholderQR_LAPACKE.h"
+	"src/QR/ColPivHouseholderQR_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\householder
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Householder/Householder.h"
+	"src/Householder/HouseholderSequence.h"
+	"src/Householder/BlockHouseholder.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\householder\householder.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\householder\householdersequence.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\householder\blockhouseholder.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\qr\householderqr.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\qr\fullpivhouseholderqr.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\qr\colpivhouseholderqr.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\qr\completeorthogonaldecomposition.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\qr\householderqr_lapacke.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\qr\colpivhouseholderqr_lapacke.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\svd
+	"QR"
+	"Householder"
+	"Jacobi"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/RealSvd2x2.h"
+	"src/SVD/UpperBidiagonalization.h"
+	"src/SVD/SVDBase.h"
+	"src/SVD/JacobiSVD.h"
+	"src/SVD/BDCSVD.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/SVD/JacobiSVD_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\misc\realsvd2x2.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\svd\upperbidiagonalization.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\svd\svdbase.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\svd\jacobisvd.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\svd\bdcsvd.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\svd\jacobisvd_lapacke.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\geometry
+	"Core"
+	"SVD"
+	"LU"
+	<limits>
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Geometry/OrthoMethods.h"
+	"src/Geometry/EulerAngles.h"
+	"src/Geometry/Homogeneous.h"
+	"src/Geometry/RotationBase.h"
+	"src/Geometry/Rotation2D.h"
+	"src/Geometry/Quaternion.h"
+	"src/Geometry/AngleAxis.h"
+	"src/Geometry/Transform.h"
+	"src/Geometry/Translation.h"
+	"src/Geometry/Scaling.h"
+	"src/Geometry/Hyperplane.h"
+	"src/Geometry/ParametrizedLine.h"
+	"src/Geometry/AlignedBox.h"
+	"src/Geometry/Umeyama.h"
+	"src/Geometry/arch/Geometry_SSE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\geometry\orthomethods.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\geometry\eulerangles.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\geometry\homogeneous.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\geometry\rotationbase.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\geometry\rotation2d.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\geometry\quaternion.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\geometry\angleaxis.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\geometry\transform.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\geometry\translation.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\geometry\scaling.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\geometry\hyperplane.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\geometry\parametrizedline.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\geometry\alignedbox.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\geometry\umeyama.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\geometry\arch\geometry_sse.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\eigenvalues
+	"Core"
+	"Cholesky"
+	"Jacobi"
+	"Householder"
+	"LU"
+	"Geometry"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/RealSvd2x2.h"
+	"src/Eigenvalues/Tridiagonalization.h"
+	"src/Eigenvalues/RealSchur.h"
+	"src/Eigenvalues/EigenSolver.h"
+	"src/Eigenvalues/SelfAdjointEigenSolver.h"
+	"src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h"
+	"src/Eigenvalues/HessenbergDecomposition.h"
+	"src/Eigenvalues/ComplexSchur.h"
+	"src/Eigenvalues/ComplexEigenSolver.h"
+	"src/Eigenvalues/RealQZ.h"
+	"src/Eigenvalues/GeneralizedEigenSolver.h"
+	"src/Eigenvalues/MatrixBaseEigenvalues.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/Eigenvalues/RealSchur_LAPACKE.h"
+	"src/Eigenvalues/ComplexSchur_LAPACKE.h"
+	"src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\eigenvalues\tridiagonalization.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\eigenvalues\realschur.h
+	"./HessenbergDecomposition.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\eigenvalues\hessenbergdecomposition.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\eigenvalues\eigensolver.h
+	"./RealSchur.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\eigenvalues\selfadjointeigensolver.h
+	"./Tridiagonalization.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\eigenvalues\generalizedselfadjointeigensolver.h
+	"./Tridiagonalization.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\eigenvalues\complexschur.h
+	"./HessenbergDecomposition.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\eigenvalues\complexeigensolver.h
+	"./ComplexSchur.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\eigenvalues\realqz.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\eigenvalues\generalizedeigensolver.h
+	"./RealQZ.h"
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\eigenvalues\matrixbaseeigenvalues.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\eigenvalues\realschur_lapacke.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\eigenvalues\complexschur_lapacke.h
+
+1601900655 c:\_data\libraries\eigen-3.3.8\eigen\src\eigenvalues\selfadjointeigensolver_lapacke.h
+>>>>>>> 5f4f1dd09f15a6d3fb2323762601e5ea7f359134
 
