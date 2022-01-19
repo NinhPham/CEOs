@@ -1,4 +1,5 @@
 The C++ source code for MIPS (using CodeBlock) written by Ninh Pham (ninh.pham@auckland.ac.nz)
+It now supports multi-threading for both indexing and querying via OpenMP.
 
 To use Eigen Lib and boost
 - In Project/Buid Options/Search Directories, add C:\_Data\Libraries\eigen-eigen-5a0156e40feb (where Eigen Lib locates)
