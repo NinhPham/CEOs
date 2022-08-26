@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Release" />
+	<File name="InputParser.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="92" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Test.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="98" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Test.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="807" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="Utilities.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7611" topLine="201" />
+		</Cursor>
+		<Folding>
+			<Collapse line="24" />
+			<Collapse line="69" />
+			<Collapse line="78" />
+		</Folding>
+	</File>
+	<File name="Concomitant.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="255" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="Concomitant.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="510" topLine="13" />
+		</Cursor>
+		<Folding>
+			<Collapse line="182" />
+			<Collapse line="749" />
+		</Folding>
+	</File>
+	<File name="BF.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1076" topLine="50" />
+		</Cursor>
+	</File>
+	<File name="Utilities.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9624" topLine="181" />
+		</Cursor>
+		<Folding>
+			<Collapse line="13" />
+			<Collapse line="22" />
+			<Collapse line="44" />
+			<Collapse line="128" />
+			<Collapse line="334" />
+			<Collapse line="367" />
+			<Collapse line="379" />
+		</Folding>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5185" topLine="48" />
+		</Cursor>
+		<Folding>
+			<Collapse line="101" />
+		</Folding>
+	</File>
+	<File name="Header.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="563" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="Header.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2576" topLine="120" />
+		</Cursor>
+	</File>
+	<File name="InputParser.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6956" topLine="180" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MIPS" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MIPS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters='17770 999 300 10 &quot;/home/npha145/Dataset/kNN/Own/Netflix_X_17770_300.txt&quot; &quot;/home/npha145/Dataset/kNN/Own/Netflix_Q_999_300.txt&quot; &quot;CEOs_Est&quot; 512 5 50' />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-O3" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MIPS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters='17770 999 300 10 &quot;/home/npha145/Dataset/kNN/Own/Netflix_X_17770_300.txt&quot; &quot;/home/npha145/Dataset/kNN/Own/Netflix_Q_999_300.txt&quot; &quot;CEOs_Est&quot; 512 5 50' />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-std=c++17" />
+					<Add option="-m64" />
+					<Add option="-fopenmp" />
+					<Add option="-march=native" />
+					<Add option="-fprefetch-loop-arrays" />
+				</Compiler>
+				<Linker>
+					<Add option="-O3" />
+					<Add option="-s" />
+					<Add option="-m64" />
+					<Add option="-lgomp -pthread" />
+					<Add option="-fprefetch-loop-arrays" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-O3" />
+			<Add option="-m64" />
+			<Add directory="/home/npha145/Library/eigen-3.4.0" />
+			<Add directory="C:/Library/eigen-3.4.0" />
+			<Add directory="/home/npha145/Library/boost_1_78_0" />
+			<Add directory="C:/Library/boost_1_77_0" />
+		</Compiler>
+		<Linker>
+			<Add option="-O3" />
+			<Add option="-m64" />
+		</Linker>
+		<Unit filename="BF.cpp" />
+		<Unit filename="BF.h" />
+		<Unit filename="Concomitant.cpp" />
+		<Unit filename="Concomitant.h" />
+		<Unit filename="Header.cpp" />
+		<Unit filename="Header.h" />
+		<Unit filename="InputParser.cpp" />
+		<Unit filename="InputParser.h" />
+		<Unit filename="Test.cpp" />
+		<Unit filename="Test.h" />
+		<Unit filename="Utilities.cpp" />
+		<Unit filename="Utilities.h" />
+		<Unit filename="fast_copy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fast_copy.h" />
+		<Unit filename="fht.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="fht.h" />
+		<Unit filename="fht_impl.h" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
