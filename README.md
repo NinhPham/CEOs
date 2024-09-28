@@ -1,13 +1,15 @@
-## Falconn++ - A Locality-sensitive Filtering Approach for ANNS with Inner Product
+## CEOs - A novel dimensionality reduction method for maximum inner product search
 
-Falconn++ is a locality-sensitive filtering (LSF) approach, built on top of cross-polytope LSH ([FalconnLib](https://github.com/FALCONN-LIB/FALCONN)) to answer approximate nearest neighbor search with inner product. 
-The filtering mechanism of Falconn++  bases on the asymptotic property of the concomitant of extreme order statistics where the projections of $x$ onto closest or furthest vector to $q$ preserves the dot product $x^T q$.
-Similar to FalconnLib, Falconn++ utilizes many random projection vectors and uses the [FFHT](https://github.com/FALCONN-LIB/FFHT) to speed up the hashing evaluation.
-Apart from many hashing-based approaches, Falconn++ has multi-probes on both indexing and querying to improve the quality of candidates.
-Falconn++ also supports multi-threading for both indexing and querying by adding only ```#pragma omp parallel for```.
+CEOs is a novel dimensionality reduction method that leverages the behavior of concomintants of extreme order statistics.
+Different from the forklore random projection, CEOs uses a significantly larger number of random vectors `n_proj`.
+The projection values on a few closest/furtherst vectors regarding the query are enough to estimate inner product between data points and the query.
+We also propose a practical variant called coCEOs that has smaller indexing size and supports streaming indexing update.
+
+We generate `n_repeats * n_proj` number of random vectors.
+Each group of `n_proj` random vector is simulated by the [FFHT](https://github.com/FALCONN-LIB/FFHT) to speed up the projection time.
+CEOs and coCEOs also support multi-threading for both indexing and querying by adding only ```#pragma omp parallel for```.
 
 We call [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page) that supports SIMD dot product computation.
-We have not engineered Falconn++ much with other techniques, e.g. prefetching.
 
 ## Prerequisites
 
@@ -39,11 +41,18 @@ Data and query must be d x n matrices.
 
 ```
 import CEOs
+
+# CEOs
 index = CEOs.CEOs(n_points, n_features)
 index.setIndexParam(n_proj, repeats, numThreads, -1)
 index.build(dataset_t)  # size d x N
+
+# query param
+index.top_proj = 10
+index.n_cand = 100
 kNN, dist = index.search(query_t, k, True) # size d x Q
 
+# coCEOs
 index = CEOs.coCEOs(n_features)
 index.setIndexParam(n_proj, repeats, numThreads, -1)
 index.build(dataset_t)  # size d x N
@@ -65,9 +74,22 @@ See test/ceos.py for Python example and src/main.cpp for C++ example.
 It is developed by Ninh Pham. .
 If you want to cite CEOs in a publication, please use
 
-> [CEOs](https://dl.acm.org/doi/10.1145/3447548.3467345)
-> Ninh Pham
-> KDD 2021
+```
+@inproceedings{DBLP:conf/kdd/Pham21,
+author       = {Ninh Pham},
+title        = {Simple Yet Efficient Algorithms for Maximum Inner Product Search via
+Extreme Order Statistics},
+booktitle    = {{KDD} '21: The 27th {ACM} {SIGKDD} Conference on Knowledge Discovery
+and Data Mining, Virtual Event, Singapore, August 14-18, 2021},
+pages        = {1339--1347},
+publisher    = {{ACM}},
+year         = {2021},
+url          = {https://doi.org/10.1145/3447548.3467345},
+doi          = {10.1145/3447548.3467345},
+}
+```
+
+
 
 
 
