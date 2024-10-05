@@ -146,22 +146,22 @@ void readIndexParam(int nargs, char** args, IndexParam& iParam)
         cout << "Default exponent: " << iParam.n_repeats << endl;
     }
 
-    // Top-m
+    // indexBucketSize
     bSuccess = false;
     for (int i = 1; i < nargs; i++)
     {
-        if (strcmp(args[i], "--top_points") == 0)
+        if (strcmp(args[i], "--iTopPoints") == 0)
         {
-            iParam.top_points = atoi(args[i + 1]);
-            cout << "Top-points closest to the random vector: " << iParam.top_points << endl;
+            iParam.indexBucketSize = atoi(args[i + 1]);
+            cout << "Top-points closest/furthest to the random vector: " << iParam.indexBucketSize << endl;
             bSuccess = true;
             break;
         }
     }
     if (!bSuccess)
     {
-        iParam.top_points = 100;
-        cout << "Default top-points: " << iParam.top_points << endl;
+        iParam.indexBucketSize = 1000;
+        cout << "Default top-points: " << iParam.indexBucketSize << endl;
     }
 
     // n_threads
@@ -180,6 +180,18 @@ void readIndexParam(int nargs, char** args, IndexParam& iParam)
     {
         iParam.n_threads = -1;
         cout << "Use all threads: " << iParam.n_threads << endl;
+    }
+
+    // centering
+    iParam.centering = false;
+    for (int i = 1; i < nargs; i++)
+    {
+        if (strcmp(args[i], "--centering") == 0)
+        {
+            iParam.centering = true;
+            cout << "We center the data. " << endl;
+            break;
+        }
     }
 
     // n_threads
@@ -255,18 +267,36 @@ void readQueryParam(int nargs, char** args, QueryParam & qParam)
     bSuccess = false;
     for (int i = 1; i < nargs; i++)
     {
-        if (strcmp(args[i], "--top_proj") == 0)
+        if (strcmp(args[i], "--probedVectors") == 0)
         {
-            qParam.top_proj = atoi(args[i + 1]);
-            cout << "Number of closest random vectors: " << qParam.top_proj << endl;
+            qParam.n_probedVectors = atoi(args[i + 1]);
+            cout << "Number of closest/furthest random vectors: " << qParam.n_probedVectors << endl;
             bSuccess = true;
             break;
         }
     }
     if (!bSuccess)
     {
-        qParam.top_proj = 10;
-        cout << "Default number of closest random vectors: " << qParam.top_proj << endl;
+        qParam.n_probedVectors = 10;
+        cout << "Default number of closest/furthest random vectors: " << qParam.n_probedVectors << endl;
+    }
+
+    // Top closest random vector
+    bSuccess = false;
+    for (int i = 1; i < nargs; i++)
+    {
+        if (strcmp(args[i], "--probedPoints") == 0)
+        {
+            qParam.n_probedPoints = atoi(args[i + 1]);
+            cout << "Number of probed points for each vectors: " << qParam.n_probedPoints << endl;
+            bSuccess = true;
+            break;
+        }
+    }
+    if (!bSuccess)
+    {
+        qParam.n_probedPoints = 10;
+        cout << "Default number of probed points for each vectors: " << qParam.n_probedPoints << endl;
     }
 
     // Candidate size

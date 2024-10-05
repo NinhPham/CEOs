@@ -57,15 +57,15 @@ int main(int nargs, char** args) {
 
     ceos.build_CEOs(MATRIX_X);
     ceos.n_cand = qParam.n_cand;
-    ceos.top_proj = qParam.top_proj;
+    ceos.n_probedVectors = qParam.n_probedVectors;
     ceos.search_CEOs(MATRIX_Q, qParam.n_neighbors, qParam.verbose);
 
 
 //    ceos.clear();
-//    ceos.set_coCEOsParam(iParam.n_proj, iParam.n_repeats, iParam.top_points, iParam.n_threads, iParam.seed);
+//    ceos.set_coCEOsParam(iParam.n_proj, iParam.n_repeats, iParam.indexBucketSize, iParam.n_threads, iParam.seed);
 //    ceos.build_coCEOs(MATRIX_X);
 //    ceos.n_cand = qParam.n_cand;
-//    ceos.top_proj = qParam.top_proj;
+//    ceos.n_probedBuckets = qParam.n_probedBuckets;
 //    ceos.search_coCEOs(MATRIX_Q, qParam.n_neighbors, qParam.verbose);
 //
 //    ceos.add_coCEOs(MATRIX_Q);
@@ -73,14 +73,14 @@ int main(int nargs, char** args) {
 
     // coCEOs
     coCEOs coceos(iParam.n_features);
-    coceos.setIndexParam(iParam.n_proj, iParam.n_repeats, iParam.top_points, iParam.n_threads, iParam.seed);
+    coceos.setIndexParam(iParam.n_proj, iParam.n_repeats, iParam.indexBucketSize, iParam.n_threads, iParam.seed, iParam.centering);
     coceos.build(MATRIX_X);
     coceos.n_cand = qParam.n_cand;
-    coceos.top_proj = qParam.top_proj;
-    coceos.search(MATRIX_Q, qParam.n_neighbors, qParam.verbose);
+    coceos.n_probedVectors = qParam.n_probedVectors;
+    coceos.estimate_search(MATRIX_Q, qParam.n_neighbors, qParam.verbose);
 
-    coceos.add_remove(MATRIX_Q, 1000);
-    coceos.search(MATRIX_Q, qParam.n_neighbors, qParam.verbose);
+    coceos.update(MATRIX_Q, 1000);
+    coceos.hash_search(MATRIX_Q, qParam.n_neighbors, qParam.verbose);
 
     return 0;
 

@@ -18,17 +18,19 @@ protected:
 
     int n_proj = 256;
     int n_rotate = 3;
+    int iTopPoints = 100; // we make it public as query might retrieve a subset of points in the bucket
+
+    bool centering = true;
 
     int n_repeats = 1;
     int seed = -1;
 
     deque<VectorXf> deque_X; // It is fast for remove and add at the end of queue
+    VectorXf vec_centerX; // When initialize the data structure with large n_points, we can apply centering trick
 
-    // coCEOs: (n_proj * repeat) x  (2 * top_points)
+    // coCEOs: estimating
+    // (n_proj * repeat) x  (2 * indexBucketSize)
     MatrixXf matrix_P; // (n_proj * repeat) x n where the first D x n is for the first set of random rotation
-
-    // vector of minQueue for coCEOs
-    vector<priority_queue<IFPair, vector<IFPair>, greater<> >>  vec_minQueClose, vec_minQueFar;
 
     int fhtDim;
 
@@ -45,10 +47,10 @@ protected:
      * Generate 3 vectors of random sign, each for one random rotation
      * One vector contain n_repeats boost::bitset, each corresponds to each tensor call D^{n_exp}
      *
-     * @param p_nNumBit = fhtDim
-     * @param p_nExponent = n_exp
+     * @param p_numBits = fhtDim
+     * @param p_numRepeats = n_exp
      */
-    void bitGenerator(int p_nNumBit, int p_nExponent)
+    void bitGenerator(int p_numBits, int p_numRepeats)
     {
         unsigned seed = chrono::system_clock::now().time_since_epoch().count();
         if (coCEOs::seed > -1) // then use the assigned seed
@@ -57,17 +59,17 @@ protected:
         default_random_engine generator(seed);
         uniform_int_distribution<uint32_t> unifDist(0, 1);
 
-        vecHD1 = vector<boost::dynamic_bitset<>>(p_nExponent);
-        vecHD2 = vector<boost::dynamic_bitset<>>(p_nExponent);
-        vecHD3 = vector<boost::dynamic_bitset<>>(p_nExponent);
+        vecHD1 = vector<boost::dynamic_bitset<>>(p_numRepeats);
+        vecHD2 = vector<boost::dynamic_bitset<>>(p_numRepeats);
+        vecHD3 = vector<boost::dynamic_bitset<>>(p_numRepeats);
 
-        for (int e = 0; e < p_nExponent; ++e)
+        for (int e = 0; e < p_numRepeats; ++e)
         {
-            vecHD1[e] = boost::dynamic_bitset<> (p_nNumBit);
-            vecHD2[e] = boost::dynamic_bitset<> (p_nNumBit);
-            vecHD3[e] = boost::dynamic_bitset<> (p_nNumBit);
+            vecHD1[e] = boost::dynamic_bitset<> (p_numBits);
+            vecHD2[e] = boost::dynamic_bitset<> (p_numBits);
+            vecHD3[e] = boost::dynamic_bitset<> (p_numBits);
 
-            for (int d = 0; d < p_nNumBit; ++d)
+            for (int d = 0; d < p_numBits; ++d)
             {
                 vecHD1[e][d] = unifDist(generator) & 1;
                 vecHD2[e][d] = unifDist(generator) & 1;
@@ -76,9 +78,9 @@ protected:
         }
 
         // Print to test
-//        for (int e = 0; e < p_nExponent; ++e)
+//        for (int e = 0; e < p_numRepeats; ++e)
 //        {
-//            for (int d = 0; d < p_nNumBit; ++d)
+//            for (int d = 0; d < p_numBits; ++d)
 //            {
 //                cout << vecHD1[e][d] << endl;
 //                cout << vecHD2[e][d] << endl;
@@ -91,9 +93,10 @@ public:
 
     int n_threads = -1;
 
+
     // Query param
-    int top_proj = 10;
-    int top_points = 10;
+    int n_probedVectors = 10;
+    int n_probedPoints = 10;
     int n_cand = 10;
 
 
@@ -101,15 +104,19 @@ public:
     coCEOs(int d){
 //        n_points = n; // we do not need n_points as we support add_remove
         n_features = d;
+        vec_centerX = VectorXf::Zero(d);
     }
 
-    void setIndexParam(int numProj, int repeats, int top_m, int threads, int s) {
+    void setIndexParam(int numProj, int repeats, int top_m, int threads, int s, bool center) {
 
         n_proj = numProj;
         n_repeats = repeats;
-        top_points = top_m;
+        iTopPoints = top_m;
+        n_probedVectors = top_m;
+
         set_threads(threads);
         seed = s;
+        centering = center;
 
         // setting fht dimension. Note n_proj must be 2^a, and > n_features
         // Ensure fhtDim > n_proj
@@ -123,11 +130,15 @@ public:
     void clear() {
 
         deque_X.clear();
+
         matrix_P.resize(0, 0);
+        vec_centerX.resize(0);
 
         vecHD1.clear();
         vecHD2.clear();
         vecHD3.clear();
+
+
     }
 
     void set_threads(int t)
@@ -139,8 +150,9 @@ public:
     }
 
     void build(const Ref<const Eigen::MatrixXf> &);
-    void add_remove(const Ref<const Eigen::MatrixXf> &, int = 0);
-    tuple<MatrixXi, MatrixXf> search(const Ref<const MatrixXf> &, int, bool=false);
+    void update(const Ref<const Eigen::MatrixXf> &, int = 0);
+    tuple<MatrixXi, MatrixXf> estimate_search(const Ref<const MatrixXf> &, int, bool=false);
+    tuple<MatrixXi, MatrixXf> hash_search(const Ref<const MatrixXf> &, int, bool=false);
 
     ~coCEOs() { clear(); }
 
@@ -155,8 +167,6 @@ public:
 //  Add sketch to estimate distance
 //  coCEOs might be useful to estimate distance if increasing top-r. Then we need small n_cand.
 //  Since n_cand is small, then disk-based (SSD) index should work very well on coCEOs
-
-
 
 };
 

@@ -30,6 +30,37 @@ inline int sgn(float x)
     // return 0;
 }
 
+// https://stackoverflow.com/questions/21132538/correct-usage-of-the-eigenref-class
+inline void randomRotating(Ref<VectorXf> vecPoint, const int & numRotate,
+                    const boost::dynamic_bitset<> & bitSetHD1, const boost::dynamic_bitset<> & bitSetHD2, const boost::dynamic_bitset<> & bitSetHD3 )
+{
+    int fhtDim = vecPoint.size();
+    int log2_FWHT = log2(fhtDim);
+
+    for (int i = 0; i < numRotate; ++i)
+    {
+        // Multiply with random sign
+        boost::dynamic_bitset<> randSign;
+        if (i == 0)
+            randSign = bitSetHD1;
+        else if (i == 1)
+            randSign = bitSetHD2;
+        else if (i == 2)
+            randSign = bitSetHD3;
+        else
+        {
+            cerr << "Error: Not support more than 3 random rotations !" << endl;
+            exit(1);
+        }
+
+        for (int d = 0; d < fhtDim; ++d) {
+            vecPoint(d) *= (2 * static_cast<float>(randSign[d]) - 1);
+        }
+
+        fht_float(vecPoint.data(), log2_FWHT);
+
+    }
+};
 /**
  * Save output
  */

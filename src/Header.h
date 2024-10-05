@@ -3,16 +3,24 @@
 #include "fht.h"
 
 #include <Eigen/Dense>
-#include <unordered_map>
+
+//#include <unordered_map>
+//#include <unordered_set>
+#include "tsl/robin_map.h" // https://github.com/Tessil/robin-map
+#include "tsl/robin_set.h" // https://github.com/Tessil/robin-map
+
+
 #include <vector>
 #include <queue>
+#include <list>
+#include <algorithm>
 #include <random>
 
 #include <chrono>
 #include <iostream> // cin, cout
 
 //#include <boost/multi_array.hpp>
-#include <boost/dynamic_bitset.hpp>
+#include <boost/dynamic_bitset.hpp> // use in vector HD
 
 using namespace Eigen;
 using namespace std;
@@ -73,17 +81,19 @@ struct IndexParam
     int n_points;
     int n_features;
     int n_proj;
-    int top_points;
+    int indexBucketSize;
     int n_repeats;
     int n_threads;
     int seed;
+    bool centering;
 };
 
 struct QueryParam{
 
     int n_queries;
     int n_neighbors;
-    int top_proj;
+    int n_probedVectors;
+    int n_probedPoints;
     int n_cand;
     bool verbose;
 };
