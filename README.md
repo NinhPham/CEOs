@@ -37,27 +37,30 @@ mkdir build && cd build && cmake .. && make
 
 ## Test call
 
-Data and query must be d x n matrices.
+Data and query must be n x d matrices.
 
 ```
 import CEOs
 
-# coCEOs
-index = CEOs.coCEOs(n_features)
-index.setIndexParam(n_proj, repeats, numThreads, seed)
-index.build(dataset_t)  # size d x N
+# CEOs
+D = 2**10
+n_repeats = 2**1
+top-m = 100 # not used in CEOs-Est
+
+n, d = np.shape(X)
+index = CEOs.CEOs(n, d)
+index.setIndexParam(D, n_repeats, top_m, n_threads, seed)
+index.build(X)  # X must have d x n
+
 
 # query param
 index.n_probed_vectors = 20
 index.n_cand = 500
 
-kNN, dist = index.search(query_t, k, True) # query has d x Q
-
-index.update(new_data, 1000) # remove the first 1000 points, and add new_data
-kNN, dist = index.hash_search(query_t, k, True) # size d x Q
+approx_kNN, approx_Dist = index.search(Q, k, verbose)
 ```
 
-See test/run_static_MIPS.py and test/run_dynamic_MIPS.py for Python example and src/main.cpp for C++ example.
+See details in test/netflix_benchmark.py
 
 ## Authors
 
