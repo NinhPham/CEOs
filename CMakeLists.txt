@@ -17,15 +17,15 @@ add_executable(CEOs src/main.cpp
         src/CEOs.cpp
         src/fast_copy.c
         src/fht.c
-        src/coCEOs.cpp
-#        src/coCEOs.h
+        src/streamCEOs.cpp
+#        src/streamCEOs.h
         #        src/fht_avx.c
 #        src/fht_sse.c
 )
 
 # Set optimization flags
 if (CMAKE_COMPILER_IS_GNUCC OR CMAKE_COMPILER_IS_GNUCXX)
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -march=native")
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O3 -march=native -DNDEBUG")
 elseif (MSVC)
     # For Visual Studio
     # You might need /Ox instead of /O3, depending on your Visual Studio version

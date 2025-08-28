@@ -66,10 +66,15 @@ inline void randomRotating(Ref<VectorXf> vecPoint, const int & numRotate,
  */
 void outputFile(const Ref<const MatrixXi> & , const string & );
 
+/* Generate Hadamard matrix
+*/
+void bitHD3Generator(int, int, boost::dynamic_bitset<> &); // 1 HD for thousand points
+void bitHD3Generator2(int, int, boost::dynamic_bitset<> &, boost::dynamic_bitset<> &); // 2 HD for million points
 
 void readIndexParam(int, char**, IndexParam & );
 void readQueryParam(int, char** , QueryParam &);
-void loadtxtData(const string &, int , int, MatrixXf & );
+void loadtxtData(const string &, int , int, RowMajorMatrixXf & );
+void loadbinData(const string& , int , int , RowMajorMatrixXf &); // filename
 
 // Fast Hadamard transform
 /**

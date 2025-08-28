@@ -4,7 +4,7 @@
 #include "Header.h"
 #include "Utilities.h"
 #include "CEOs.h"
-#include "coCEOs.h"
+#include "streamCEOs.h"
 
 // --numData 1183514 --n_features 200 --n_tables 10 --n_proj 256 --bucket_minSize 20, --bucket_scale 0.01
 // --X "/home/npha145/Dataset/kNN/CosineKNN/Glove_X_1183514_200.txt" --n_threads 4
@@ -19,7 +19,7 @@ int main(int nargs, char** args) {
     readQueryParam(nargs, args, qParam);
 
     // Read data
-    MatrixXf MATRIX_X, MATRIX_Q;
+    RowMajorMatrixXf MATRIX_X, MATRIX_Q;
 
     // Read dataset
     string dataset = "";
@@ -34,7 +34,8 @@ int main(int nargs, char** args) {
         exit(1);
     }
     else
-        loadtxtData(dataset, iParam.n_points, iParam.n_features, MATRIX_X);
+        // loadtxtData(dataset, iParam.n_points, iParam.n_features, MATRIX_X);
+        loadbinData(dataset, iParam.n_points, iParam.n_features, MATRIX_X);
 
     // Read query set
     dataset = "";
@@ -49,15 +50,16 @@ int main(int nargs, char** args) {
         exit(1);
     }
     else
-        loadtxtData(dataset, qParam.n_queries, iParam.n_features, MATRIX_Q);
+        // loadtxtData(dataset, qParam.n_queries, iParam.n_features, MATRIX_Q);
+        loadbinData(dataset, qParam.n_queries, iParam.n_features, MATRIX_Q);
 
     // CEOs-Est
     CEOs ceos(iParam.n_points, iParam.n_features);
-    ceos.set_CEOsParam(iParam.n_proj, iParam.n_repeats, iParam.n_threads, iParam.seed);
+    ceos.set_CEOsParam(iParam.n_proj, iParam.n_repeats, iParam.top_m, iParam.n_threads, iParam.seed);
 
     ceos.build_CEOs(MATRIX_X);
     ceos.n_cand = qParam.n_cand;
-    ceos.n_probedVectors = qParam.n_probedVectors;
+    ceos.n_probed_vectors = qParam.n_probed_vectors;
     ceos.search_CEOs(MATRIX_Q, qParam.n_neighbors, qParam.verbose);
 
 
@@ -72,11 +74,11 @@ int main(int nargs, char** args) {
 //    ceos.search_coCEOs(MATRIX_Q, qParam.n_neighbors, qParam.verbose);
 
     // coCEOs
-    coCEOs coceos(iParam.n_features);
-    coceos.setIndexParam(iParam.n_proj, iParam.n_repeats, iParam.indexBucketSize, iParam.n_threads, iParam.seed, iParam.centering);
+    streamCEOs coceos(iParam.n_features);
+    coceos.set_streamCEOsParam(iParam.n_proj, iParam.n_repeats, iParam.top_m, iParam.n_threads, iParam.seed);
     coceos.build(MATRIX_X);
     coceos.n_cand = qParam.n_cand;
-    coceos.n_probedVectors = qParam.n_probedVectors;
+    coceos.n_probed_vectors = qParam.n_probed_vectors;
     coceos.estimate_search(MATRIX_Q, qParam.n_neighbors, qParam.verbose);
 
     coceos.update(MATRIX_Q, 1000);

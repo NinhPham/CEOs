@@ -48,7 +48,7 @@ index.setIndexParam(n_proj, repeats, numThreads, seed)
 index.build(dataset_t)  # size d x N
 
 # query param
-index.n_probedVectors = 20
+index.n_probed_vectors = 20
 index.n_cand = 500
 
 kNN, dist = index.search(query_t, k, True) # query has d x Q
@@ -61,7 +61,7 @@ See test/run_static_MIPS.py and test/run_dynamic_MIPS.py for Python example and 
 
 ## Authors
 
-It is developed by Ninh Pham. .
+It is developed by Ninh Pham.
 If you want to cite CEOs in a publication, please use
 
 ```

@@ -27,6 +27,10 @@ using namespace std;
 
 typedef vector<float> FVector;
 typedef vector<int> IVector;
+
+using RowMajorMatrixXf = Eigen::Matrix<float, Eigen::Dynamic, Eigen::Dynamic, Eigen::RowMajor>;
+using RowMajorMatrixXi = Eigen::Matrix<int, Eigen::Dynamic, Eigen::Dynamic, Eigen::RowMajor>;
+
 //typedef vector<uint32_t> I32Vector;
 //typedef vector<uint64_t> I64Vector;
 
@@ -81,7 +85,7 @@ struct IndexParam
     int n_points;
     int n_features;
     int n_proj;
-    int indexBucketSize;
+    int top_m;
     int n_repeats;
     int n_threads;
     int seed;
@@ -92,8 +96,8 @@ struct QueryParam{
 
     int n_queries;
     int n_neighbors;
-    int n_probedVectors;
-    int n_probedPoints;
+    int n_probed_vectors;
+    int n_probed_points;
     int n_cand;
     bool verbose;
 };
